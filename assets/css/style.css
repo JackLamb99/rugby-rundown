@@ -1,0 +1,8 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Lexend&display=swap')
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+}
