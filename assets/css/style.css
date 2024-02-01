@@ -1,7 +1,7 @@
 /* Google Fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Lexend&display=swap");
 
-/* Asterisk wildcard selector to override default browser styles */
+/* Override default browser styles */
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +24,10 @@ h1, h2 {
     color: #005da0;
 }
 
+ul {
+    list-style: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -31,12 +35,63 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    box-shadow: 0 2px #000030;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu {
+    font-size: 120%;
+}
+
+/* Targets non-active nav items */
+.non-active {
+    background-color: #ffffff;
+    color: #000030;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Targets active nav items */
+.active {
+    background-color: #005da0;
+    color: #ffffff;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Nav styles with dropdown toggle */
+nav {
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: .5rem;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+/* Nav elements that come after the nav-toggle id when checked */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* Nav elements when toggle is unchecked */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    color: #005da0;
+    font-size: 2rem;
 }
 
 /* Main */
