@@ -32,11 +32,12 @@ ul {
 header {
     background-color: #ffffff;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
     z-index: 99;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header a {
@@ -45,7 +46,7 @@ header a {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 100%;
 }
 
 /* Targets non-active nav items */
@@ -72,10 +73,10 @@ header a {
 nav {
     background-color: #ffffff;
     width: 100%;
-    left: 0;
     padding: .5rem;
     position: absolute;
     top: 100%;
+    left: 0;
     display: none;
 }
 
@@ -99,4 +100,37 @@ nav {
     background-color: blue;
     width: 100%;
     height: 2000px;
+}
+
+/* Media Query: tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    header {
+        padding: 0 0 0 1rem;
+        align-items: center;
+    }
+
+    #logo {
+        font-size: 300%;
+    }
+
+    #menu {
+        font-size: 110%;
+        display: flex;
+    }
+
+    #menu > li {
+        width: 120px;
+        text-align: center;
+    }
+
+    nav {
+        display: inline-block;
+        position: relative;
+        width: fit-content;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
