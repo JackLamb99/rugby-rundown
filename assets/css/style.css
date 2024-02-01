@@ -1,8 +1,47 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Lexend&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Lexend&display=swap");
+
+/* Asterisk wildcard selector to override default browser styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    color: #000030;
+    font-family: 'Lexend', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Jockey One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #005da0;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px #000030;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+#content {
+    background-color: blue;
+    width: 100%;
+    height: 2000px;
 }
