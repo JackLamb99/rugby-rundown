@@ -104,13 +104,8 @@ nav {
 
 /* Footer */
 #footer {
-    color: #ffffff;
     background-color: #000030;
     margin-top: 2rem;
-}
-
-#footer-container {
-    display: block;
 }
 
 /* Social Media links */
@@ -127,6 +122,70 @@ nav {
 
 .social-media-link {
     color: #ffffff;
+}
+
+/* Newsletter */
+#newsletter {
+    padding: 0 1rem 1rem;
+    margin: 0 auto;
+    max-width: 400px;
+    align-self: center;
+}
+
+#newsletter > h2 {
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+}
+
+#newsletter > form {
+    justify-content: center;
+}
+
+#newsletter form input::placeholder {
+    color: #000030;
+}
+
+#newsletter form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newsletter-input {
+    font-size: 100%;
+    color: #000030;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-style: inset;
+    border-color: #808080;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.newsletter-btn {
+    font-size: 100%;
+    color: #ffffff;
+    background-color: #005da0;
+    width: 50%;
+    max-width: 100px;
+    padding: 5px;
+    border-style: inset;
+    border-color: #808080;
+    border-width: 5px;
+}
+
+#newsletter-submit {
+    margin-right: 5px;
+    border-radius: 10px 0 0 10px;
+}
+
+#newsletter-reset {
+    margin-left: 5px;
+    border-radius: 0 10px 10px 0;
 }
 
 /* Media Query: tablets (768px and up) */
