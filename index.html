@@ -33,13 +33,16 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" class="active"><i class="fa-solid fa-house" aria-label="Click to go to the Home page"></i> Home</a>
+                    <a href="index.html" class="active"><i class="fa-solid fa-house"
+                            aria-label="Click to go to the Home page"></i> Home</a>
                 </li>
                 <li>
-                    <a href="rules.html" class="non-active"><i class="fa-solid fa-scale-balanced" aria-label="Click to go to the Rules page"></i> Rules</a>
+                    <a href="rules.html" class="non-active"><i class="fa-solid fa-scale-balanced"
+                            aria-label="Click to go to the Rules page"></i> Rules</a>
                 </li>
                 <li>
-                    <a href="positions.html" class="non-active"><i class="fa-solid fa-people-line" aria-label="Click to go to the Positions page"></i> Positions</a>
+                    <a href="positions.html" class="non-active"><i class="fa-solid fa-people-line"
+                            aria-label="Click to go to the Positions page"></i> Positions</a>
                 </li>
             </ul>
         </nav>
@@ -56,26 +59,41 @@
             <div id="social-media">
                 <ul>
                     <li>
-                        <a href="https://www.youtube.com/" target="_blank" class="social-media-link" aria-label="Click to go to the Rugby Union Youtube page"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="social-media-link"
+                            aria-label="Click to go to the Rugby Union Youtube page"><i
+                                class="fa-brands fa-youtube"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank" class="social-media-link" aria-label="Click to go to the Rugby Union Instagram page"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social-media-link"
+                            aria-label="Click to go to the Rugby Union Instagram page"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank" class="social-media-link" aria-label="Click to go to the Rugby Union Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social-media-link"
+                            aria-label="Click to go to the Rugby Union Facebook page"><i
+                                class="fa-brands fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com/" target="_blank" class="social-media-link" aria-label="Click to go to the Rugby Union Twitter, also known as X, page"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" class="social-media-link"
+                            aria-label="Click to go to the Rugby Union Twitter, also known as X, page"><i
+                                class="fa-brands fa-x-twitter"></i></a>
                     </li>
                 </ul>
             </div>
             <div id="newsletter">
                 <h2>Newsletter</h2>
                 <form action="newsletter.html" method="get" target="_blank">
-                    <input id="newsletter-fname" class="newsletter-input" type="text" placeholder="First Name *" name="fname" required>
-                    <input id="newsletter-lname" class="newsletter-input" type="text" placeholder="Last Name (Optional)" name="lname">
-                    <input id="newsletter-email" class="newsletter-input" type="email" placeholder="Email *" name="email" required>
-                    <div>
+                    <div class="name-inputs">
+                        <input id="newsletter-fname" class="newsletter-input newsletter-name" type="text" placeholder="First Name *"
+                            name="fname" required>
+                        <input id="newsletter-lname" class="newsletter-input newsletter-name" type="text" placeholder="Last Name (Optional)"
+                            name="lname">
+                    </div>
+                    <div class="email-input">
+                        <input class="newsletter-input newsletter-email" type="email" placeholder="Email *" name="email"
+                            required>
+                    </div>
+                    <div class="button-inputs">
                         <button id="newsletter-submit" class="newsletter-btn" type="submit">Sign up</button>
                         <button id="newsletter-reset" class="newsletter-btn" type="reset">Clear</button>
                     </div>

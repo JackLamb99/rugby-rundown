@@ -17,7 +17,8 @@ body {
     font-family: 'Lexend', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -29,6 +30,7 @@ ul {
 }
 
 /* Header */
+
 header {
     background-color: #ffffff;
     width: 100%;
@@ -96,6 +98,7 @@ nav {
 }
 
 /* Main */
+
 #content {
     background-color: blue;
     width: 100%;
@@ -103,6 +106,7 @@ nav {
 }
 
 /* Footer */
+
 #footer {
     background-color: #000030;
     margin-top: 2rem;
@@ -113,7 +117,7 @@ nav {
     padding: 1rem;
 }
 
-#social-media > ul {
+#social-media>ul {
     font-size: 2rem;
     display: flex;
     flex-direction: row;
@@ -129,27 +133,22 @@ nav {
     padding: 0 1rem 1rem;
     margin: 0 auto;
     max-width: 400px;
-    align-self: center;
 }
 
-#newsletter > h2 {
+#newsletter>h2 {
     color: #ffffff;
     font-size: 200%;
     text-align: center;
 }
 
-#newsletter > form {
+.button-inputs {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 #newsletter form input::placeholder {
     color: #000030;
-}
-
-#newsletter form div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .newsletter-input {
@@ -178,6 +177,7 @@ nav {
     border-width: 5px;
 }
 
+/* Sets radius to be flat against the adjacent button */
 #newsletter-submit {
     margin-right: 5px;
     border-radius: 10px 0 0 10px;
@@ -190,7 +190,9 @@ nav {
 
 /* Media Query: tablets (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
+
     header {
         padding: 0 0 0 1rem;
         align-items: center;
@@ -205,18 +207,57 @@ nav {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         width: 120px;
         text-align: center;
     }
 
+    /* Replaces nav toggle with an inline-block */
     nav {
         display: inline-block;
         position: relative;
         width: fit-content;
     }
 
+    /* Removes nav toggle */
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Footer */
+
+    #social-media>ul {
+        font-size: 3rem;
+    }
+
+    /* Newsletter */
+    #newsletter {
+        max-width: 600px;
+    }
+
+    #newsletter>h2 {
+        font-size: 300%;
+    }
+
+    /* Displays first and last name inputs on the same line */
+    .name-inputs {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .email-input {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Sets radius to be flat against the adjacent button */
+    #newsletter-fname {
+        margin-right: 5px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #newsletter-lname {
+        margin-left: 5px;
+        border-radius: 0 10px 10px 0;
     }
 }
