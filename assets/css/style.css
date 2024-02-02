@@ -102,6 +102,33 @@ nav {
     height: 2000px;
 }
 
+/* Footer */
+#footer {
+    color: #ffffff;
+    background-color: #000030;
+    margin-top: 2rem;
+}
+
+#footer-container {
+    display: block;
+}
+
+/* Social Media links */
+#social-media {
+    padding: 1rem;
+}
+
+#social-media > ul {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social-media-link {
+    color: #ffffff;
+}
+
 /* Media Query: tablets (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
