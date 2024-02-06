@@ -18,7 +18,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -183,11 +184,46 @@ nav {
     }
 }
 
+/* Reasons section */
+#reasons {
+    margin: 1rem 1rem 0;
+}
+
+#reasons>h2 {
+    font-size: 300%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#reasons>div {
+    margin-top: .5rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#reasons h3 {
+    font-size: 200%;
+}
+
+.reasons-colour2>h3 {
+    color: #ffffff;
+}
+
+.reasons-colour1 {
+    background-color: #e2e2e2;
+}
+
+.reasons-colour2 {
+    color: #ffffff;
+    background-color: #005da0;
+}
+
 /* Footer */
 
 #footer {
     background-color: #000030;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 /* Social Media links */
