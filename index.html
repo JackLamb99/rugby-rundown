@@ -24,7 +24,8 @@
     <!--Header -->
     <header>
         <a href="index.html" aria-label="Rugby Union logo">
-            <h1 id="logo">Rugby<img id="logo-img" src="assets/images/logo_player.webp" alt="Rugby player running with ball">Rundown</h1>
+            <h1 id="logo">Rugby<img id="logo-img" src="assets/images/logo_player.webp"
+                    alt="Rugby player running with ball">Rundown</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label" aria-label="Click to toggle mobile menu">
@@ -50,17 +51,51 @@
 
     <!-- Main -->
     <main>
-        <section>
+        <section id="hero">
             <div class="carousel-container">
                 <div class="carousel">
-                    <img src="assets/images/carousel_image_1.webp" alt="A rugby player passing the ball after recovering it from a ruck">
-                    <img src="assets/images/carousel_image_2.webp" alt="A rugby player lining up to take a penalty kick on a muddy pitch in the rain">
-                    <img src="assets/images/carousel_image_3.webp" alt="A rugby player tackling an opposing player as they attempt to score a try">
-                    <img src="assets/images/carousel_image_4.webp" alt="A rugby player sprinting down the pitch after avoiding a tackle">
-                    <img src="assets/images/carousel_image_5.webp" alt="A group of junior rugby players tackling an opposing player as they score a try">
-                    <img src="assets/images/carousel_image_1.webp" alt="Loop back to first carousel image">
-                    <img src="assets/images/carousel_image_2.webp" alt="Loop back to first carousel image">
+                    <img src="assets/images/carousel_image_1.webp"
+                        alt="A rugby player passing the ball after recovering it from a ruck">
+                    <img src="assets/images/carousel_image_2.webp"
+                        alt="A rugby player lining up to take a penalty kick on a muddy pitch in the rain">
+                    <img src="assets/images/carousel_image_3.webp"
+                        alt="A rugby player tackling an opposing player as they attempt to score a try">
+                    <img src="assets/images/carousel_image_4.webp"
+                        alt="A rugby player sprinting down the pitch after avoiding a tackle">
+                    <img src="assets/images/carousel_image_5.webp"
+                        alt="A group of junior rugby players tackling an opposing player as they score a try">
+                    <!-- Image reqired for loop effect -->
+                    <img src="assets/images/carousel_image_1.webp">
+                    <!-- Image reqired for loop effect on desktop view-->
+                    <img src="assets/images/carousel_image_2.webp">
                 </div>
+            </div>
+        </section>
+        <section id="reasons">
+            <h2>Why we love Rugby Union</h2>
+            <div id="teamwork">
+                <h3>Teamwork <i class="fa-solid fa-people-carry-box"></i></h3>
+                <p>In rugby, teamwork is everything. Players work together seamlessly, relying on each other's strengths
+                    to drive the ball forward. From a coordinated attack to a solid defence, the game thrives on unity
+                    and collaboration, showcasing the power of collective effort.</p>
+            </div>
+            <div id="inclusiveness">
+                <h3>Inclusiveness <i class="fa-solid fa-users-gear"></i></h3>
+                <p>Rugby is a sport where everyone is welcome and differences are celebrated, because it takes players
+                    all shapes, sizes, speeds and strength to drive a team to victory. Like unique gears in a well-oiled
+                    machine, all that’s required is a drive to keep pushing forward.</p>
+            </div>
+            <div id="respect">
+                <h3>Respect <i class="fa-solid fa-handshake-simple"></i></h3>
+                <p>Respect is foundational in rugby. On and off the field, players uphold the value of sportsmanship,
+                    towards opponents and officials alike. Whether in victory or defeat, rugby fosters a culture of
+                    mutual respect, uniting competitors in a spirit of integrity.</p>
+            </div>
+            <div id="history">
+                <h3>History <i class="fa-solid fa-hourglass-half"></i></h3>
+                <p>Rugby boasts a rich and storied history spanning centuries. Originating in England in the 19th
+                    century, it has evolved into a global phenomenon, captivating players and fans worldwide with its
+                    tradition, innovation, and enduring spirit of competition.</p>
             </div>
         </section>
     </main>
@@ -96,10 +131,10 @@
                 <h2>Newsletter</h2>
                 <form action="newsletter.html" method="get" target="_blank">
                     <div class="name-inputs">
-                        <input id="newsletter-fname" class="newsletter-input newsletter-name" type="text" placeholder="First Name *"
-                            name="fname" required>
-                        <input id="newsletter-lname" class="newsletter-input newsletter-name" type="text" placeholder="Last Name (Optional)"
-                            name="lname">
+                        <input id="newsletter-fname" class="newsletter-input newsletter-name" type="text"
+                            placeholder="First Name *" name="fname" required>
+                        <input id="newsletter-lname" class="newsletter-input newsletter-name" type="text"
+                            placeholder="Last Name (Optional)" name="lname">
                     </div>
                     <div class="email-input">
                         <input class="newsletter-input newsletter-email" type="email" placeholder="Email *" name="email"
