@@ -112,16 +112,53 @@ nav {
 
 /* Main */
 
-#content {
-    background-color: blue;
+/* Carousel image gallery */
+.carousel-container {
     width: 100%;
-    height: 2000px;
+    overflow: hidden;
+    margin-top: 45px;
 }
 
-#content2 {
-    background-color: green;
+.carousel {
+    display: flex;
+    /* Controls the duration of each image before scrolling */
+    animation: scroll 15s linear infinite;
+}
+
+.carousel>img {
     width: 100%;
-    height: 2000px;
+    height: auto;
+}
+
+/* Auto scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+      }
+      20% {
+        transform: translateX(0);
+      }
+      25% {
+        transform: translateX(-100%);
+      }
+      45% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(-200%);
+      }
+      70% {
+        transform: translateX(-200%);
+      }
+      75% {
+        transform: translateX(-300%);
+      }
+      95% {
+        transform: translateX(-300%);
+      }
+      100% {
+        transform: translateX(0);
+      }
 }
 
 /* Footer */
