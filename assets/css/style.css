@@ -115,7 +115,7 @@ nav {
 /* Carousel image gallery */
 .carousel-container {
     width: 100%;
-    max-height: 800px;
+    max-height: 750px;
     position: relative;
     margin-top: 45px;
     overflow: hidden;
@@ -306,6 +306,13 @@ nav {
         display: none;
     }
 
+    /* Main */
+
+    /* Applies new top margin to the carousel gallery */
+    .carousel-container {
+        margin-top: 67px;
+    }
+
     /* Footer */
 
     #social-media>ul {
@@ -341,5 +348,67 @@ nav {
     #newsletter-lname {
         margin-left: 5px;
         border-radius: 0 10px 10px 0;
+    }
+}
+
+/* Media Query: desktop (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Carousel image gallery */
+    .carousel-container {
+        max-height: 600px;
+        /* margin-top: 45px; */
+    }
+
+    .carousel>img {
+        width: 50%;
+        height: auto;
+    }
+
+    /* Auto scrolling animation */
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        10% {
+            transform: translateX(0);
+        }
+
+        20% {
+            transform: translateX(-50%);
+        }
+
+        30% {
+            transform: translateX(-50%);
+        }
+
+        40% {
+            transform: translateX(-100%);
+        }
+
+        50% {
+            transform: translateX(-100%);
+        }
+
+        60% {
+            transform: translateX(-150%);
+        }
+
+        70% {
+            transform: translateX(-150%);
+        }
+
+        80% {
+            transform: translateX(-200%);
+        }
+
+        90% {
+            transform: translateX(-200%);
+        }
+
+        100% {
+            transform: translateX(-250%);
+        }
     }
 }
