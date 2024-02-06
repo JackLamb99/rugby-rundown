@@ -47,6 +47,19 @@ header a {
     color: inherit;
 }
 
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo > img {
+    height: 36px;
+    padding: 0 5px;
+    margin: auto;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+
 #menu {
     font-size: 100%;
 }
