@@ -141,35 +141,45 @@ nav {
     0% {
         transform: translateX(0);
     }
-    16% {
+
+    10% {
         transform: translateX(0);
     }
+
     20% {
         transform: translateX(-100%);
     }
-    36% {
+
+    30% {
         transform: translateX(-100%);
     }
+
     40% {
         transform: translateX(-200%);
     }
-    56% {
+
+    50% {
         transform: translateX(-200%);
     }
+
     60% {
         transform: translateX(-300%);
     }
-    76% {
+
+    70% {
         transform: translateX(-300%);
     }
+
     80% {
         transform: translateX(-400%);
     }
-    96% {
+
+    90% {
         transform: translateX(-400%);
     }
+
     100% {
-        transform: translateX(0);
+        transform: translateX(-500%);
     }
 }
 
