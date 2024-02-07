@@ -301,6 +301,36 @@ nav {
     border-radius: 0 10px 10px 0;
 }
 
+/* Media Query: smaller devices (less than 300px) */
+@media screen and (max-width: 299px) {
+    /* Header */
+
+    #logo {
+        font-size: 180%;
+    }
+    
+    #logo>img {
+        height: 36px;
+        padding: 0 5px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Main */
+
+    .carousel-container {
+        margin-top: 40px;
+    }
+
+    #reasons>h2 {
+        font-size: 250%;
+    }
+
+    #reasons h3 {
+        font-size: 150%;
+    }
+}
+
 /* Media Query: tablets (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -388,11 +418,11 @@ nav {
 
 /* Media Query: desktop (1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Main */
 
     /* Carousel image gallery */
     .carousel-container {
         max-height: 600px;
-        /* margin-top: 45px; */
     }
 
     .carousel>img {
