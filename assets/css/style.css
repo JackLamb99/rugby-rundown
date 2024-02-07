@@ -225,6 +225,56 @@ nav {
     display: none;
 }
 
+/* External Links section */
+#links {
+    margin: 1rem 1rem 0;
+}
+
+#link-image {
+    height: 400px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#link-image img {
+    width: auto;
+    height: 100%;
+}
+
+#link-uk-rugby {
+    max-width: 400px;
+    margin: 1rem auto 0;
+    font-size: 200%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#link-uk-rugby h3 {
+    width: 100%;
+}
+
+#link-uk-rugby div {
+    width: 25%;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+#link-uk-rugby img {
+    width: auto;
+    height: 100%;
+}
+
+#link-world-rugby {
+    margin-top: 1rem;
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 /* Footer */
 
 #footer {
