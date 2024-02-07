@@ -185,7 +185,7 @@ nav {
 
 /* Reasons section */
 #reasons {
-    margin: 1rem 1rem 0;
+    margin: .5rem 1rem 0;
 }
 
 #reasons>h2 {
@@ -216,6 +216,10 @@ nav {
 .reasons-colour2 {
     color: #ffffff;
     background-color: #005da0;
+}
+
+#left-icon {
+    display: none;
 }
 
 /* Footer */
@@ -308,7 +312,7 @@ nav {
     #logo {
         font-size: 180%;
     }
-    
+
     #logo>img {
         height: 36px;
         padding: 0 5px;
@@ -376,6 +380,27 @@ nav {
     /* Applies new top margin to the carousel gallery */
     .carousel-container {
         margin-top: 67px;
+    }
+
+    /* Reasons section */
+    #reasons>h2 {
+        font-size: 400%;
+    }
+
+    #reasons h3 {
+        font-size: 250%;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    #left-icon {
+        display: initial;
+    }
+
+    #right-icon {
+        display: none;
     }
 
     /* Footer */
