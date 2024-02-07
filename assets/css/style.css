@@ -195,7 +195,7 @@ nav {
     margin: 0 auto;
 }
 
-#reasons>div {
+#reasons div div {
     margin-top: .5rem;
     padding: 10px;
     border-radius: 10px;
@@ -205,15 +205,18 @@ nav {
     font-size: 200%;
 }
 
-.reasons-colour2>h3 {
+#inclusiveness>h3,
+#history>h3 {
     color: #ffffff;
 }
 
-.reasons-colour1 {
+#teamwork,
+#respect {
     background-color: #e2e2e2;
 }
 
-.reasons-colour2 {
+#inclusiveness,
+#history {
     color: #ffffff;
     background-color: #005da0;
 }
@@ -383,6 +386,10 @@ nav {
     }
 
     /* Reasons section */
+    #reasons {
+        margin: 1rem 2rem 0;
+    }
+
     #reasons>h2 {
         font-size: 400%;
     }
@@ -441,8 +448,8 @@ nav {
     }
 }
 
-/* Media Query: desktop (1200px and up) */
-@media screen and (min-width: 1200px) {
+/* Media Query: laptop and desktop (1000px and up) */
+@media screen and (min-width: 1000px) {
     /* Main */
 
     /* Carousel image gallery */
@@ -500,5 +507,53 @@ nav {
         100% {
             transform: translateX(-250%);
         }
+    }
+
+    /* Reasons section */
+    #reasons div div {
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+    .reasons-first-half,
+    .reasons-second-half {
+        display: flex;
+    }
+
+    #inclusiveness>h3,
+    #respect>h3 {
+        color: #ffffff;
+    }
+
+    #teamwork>h3,
+    #history>h3 {
+       color: #005da0; 
+    }
+
+    #teamwork,
+    #history {
+        color: #000030;
+        background-color: #e2e2e2;
+        width: 40%;
+    }
+
+    #inclusiveness,
+    #respect {
+        color: #ffffff;
+        background-color: #005da0;
+        width: 60%;
+    }
+
+    #teamwork,
+    #respect {
+        margin-right: .5rem;
+    }
+}
+
+/* Media Query: large desktop (1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Main */
+    #reasons {
+        margin: 1rem 8rem 0;
     }
 }
