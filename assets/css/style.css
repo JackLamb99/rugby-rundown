@@ -197,7 +197,7 @@ nav {
 
 #reasons div div {
     margin-top: .5rem;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 10px;
 }
 
@@ -349,8 +349,8 @@ nav {
     border-radius: 0 10px 10px 0;
 }
 
-/* Media Query: smaller devices (less than 300px) */
-@media screen and (max-width: 299px) {
+/* Media Query: smaller devices (less than 320px) */
+@media screen and (max-width: 319px) {
     /* Header */
 
     #logo {
@@ -433,6 +433,10 @@ nav {
 
     #reasons>h2 {
         font-size: 400%;
+    }
+
+    #reasons div div {
+        padding: 2rem;
     }
 
     #reasons h3 {
@@ -576,12 +580,18 @@ nav {
     /* Reasons section */
     #reasons div div {
         margin: 1rem;
-        padding: 2rem;
+        padding: 3rem;
+    }
+
+    #reasons div div p {
+        font-size: 120%;
     }
 
     .reasons-first-half,
     .reasons-second-half {
         display: flex;
+        max-width: 1250px;
+        margin: 0 auto;
     }
 
     #inclusiveness>h3,
@@ -624,6 +634,6 @@ nav {
 
     /* Main */
     #reasons {
-        margin: 1rem 8rem 0;
+        margin: 1rem auto 0;
     }
 }
