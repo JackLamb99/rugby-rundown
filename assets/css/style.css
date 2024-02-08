@@ -33,6 +33,10 @@ h2 {
     margin: 0 auto;
 }
 
+h3 {
+    font-size: 200%;
+}
+
 ul {
     list-style: none;
 }
@@ -44,7 +48,7 @@ ul {
     height: 0;
     max-width: 1000px;
     max-height: 563px;
-    margin: 1rem auto 0;
+    margin: .5rem auto 0;
 }
 
 .video {
@@ -219,10 +223,6 @@ nav {
     border-radius: 10px;
 }
 
-#reasons h3 {
-    font-size: 200%;
-}
-
 #inclusiveness>h3,
 #history>h3 {
     color: #ffffff;
@@ -286,7 +286,7 @@ nav {
 
 /* Main - Rules Page */
 
-/* Hero Image */
+/* Hero Image section */
 #rules-hero {
     height: 400px;
     width: 100%;
@@ -294,8 +294,62 @@ nav {
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
-#rules {
+/* Rules video */
+#rules-video {
+    margin: .5rem 1rem 0;
+}
+
+/* Accordion */
+#accordion {
     margin: 1rem 1rem 0;
+}
+
+#accordion>ul {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto 0;
+}
+
+#accordion li {
+    margin-bottom: .5rem;
+    background-color: #005da0;
+    border-radius: 10px;
+}
+
+#accordion li label {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#accordion li label h3,
+#accordion li label span {
+    color: #ffffff;
+}
+
+#accordion li div {
+    background-color: #e2e2e2;
+    border-radius: 0 0 10px 10px;
+}
+
+#accordion label + input[type="radio"] {
+    display: none;
+}
+
+#accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .accordion-content {
+    max-height: 500px;
+}
+
+.accordion-content p {
+    padding: 0.5rem 1rem;
 }
 
 /* Footer */
@@ -520,7 +574,8 @@ nav {
         margin-top: 67px;
     }
 
-    #rules {
+    /* Rules video */
+    #rules-video {
         margin: 1rem 2rem 0;
     }    
 
@@ -572,6 +627,7 @@ nav {
     .video-container {
         /* 16:9 */
         padding-bottom: 563px;
+        margin: 1rem auto 0;
     }
 
     /* Main - Index Page */
