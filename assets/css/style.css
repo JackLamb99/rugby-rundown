@@ -268,11 +268,12 @@ nav {
 
 /* Main - Rules Page */
 
+/* Hero Image */
 #rules-hero {
     height: 400px;
     width: 100%;
     margin-top: 45px;
-    background: url(../images/nigel_owens_ref.webp) no-repeat center top/cover;
+    background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
 /* Footer */
@@ -484,6 +485,14 @@ nav {
         margin-top: 2rem;
     }
 
+    /* Main - Rules Page */
+
+    /* Hero Image */
+    #rules-hero {
+        height: 500px;
+        margin-top: 67px;
+    }
+
     /* Footer */
     #footer {
         margin-top: 2rem;
@@ -635,6 +644,14 @@ nav {
     /* External Links section */
     #link-uk-rugby {
         max-width: 1000px;
+    }
+
+    /* Main - Rules Page */
+
+    /* Hero Image */
+    #rules-hero {
+        height: 600px;
+        background: url(../images/rugby_ref_wide.webp) no-repeat center top/cover;
     }
 }
 
