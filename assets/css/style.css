@@ -110,7 +110,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main */
+/* Main - Index Page */
 
 /* Carousel image gallery */
 .carousel-container {
@@ -266,6 +266,15 @@ nav {
     height: 100%;
 }
 
+/* Main - Rules Page */
+
+#rules-hero {
+    height: 400px;
+    width: 100%;
+    margin-top: 45px;
+    background: url(../images/nigel_owens_ref.webp) no-repeat center top/cover;
+}
+
 /* Footer */
 
 #footer {
@@ -364,7 +373,7 @@ nav {
         text-align: center;
     }
 
-    /* Main */
+    /* Main - Index Page */
 
     .carousel-container {
         margin-top: 40px;
@@ -419,7 +428,7 @@ nav {
         display: none;
     }
 
-    /* Main */
+    /* Main - Index Page */
 
     /* Applies new top margin to the carousel gallery */
     .carousel-container {
@@ -518,7 +527,7 @@ nav {
 
 /* Media Query: laptop and desktop (1000px and up) */
 @media screen and (min-width: 1000px) {
-    /* Main */
+    /* Main - Index Page */
 
     /* Carousel image gallery */
     .carousel-container {
@@ -632,7 +641,7 @@ nav {
 /* Media Query: large desktop (1400px and up) */
 @media screen and (min-width: 1400px) {
 
-    /* Main */
+    /* Main - Index Page */
     #reasons {
         margin: 1rem auto 0;
     }
