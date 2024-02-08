@@ -26,8 +26,33 @@ h3 {
     color: #005da0;
 }
 
+h2 {
+    font-size: 300%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
+}
+
+.video-container {
+    position: relative;
+    /* 16:9 ratio */
+    padding-bottom: 56.25%;
+    height: 0;
+    max-width: 1000px;
+    max-height: 563px;
+    margin: 1rem auto 0;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 563px;
 }
 
 /* Header */
@@ -188,13 +213,6 @@ nav {
     margin: .5rem 1rem 0;
 }
 
-#reasons>h2 {
-    font-size: 300%;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
 #reasons div div {
     margin-top: .5rem;
     padding: 1rem;
@@ -274,6 +292,10 @@ nav {
     width: 100%;
     margin-top: 45px;
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
+}
+
+#rules {
+    margin: 1rem 1rem 0;
 }
 
 /* Footer */
@@ -361,6 +383,15 @@ nav {
 
 /* Media Query: smaller devices (less than 320px) */
 @media screen and (max-width: 319px) {
+    /* General Styles */
+    h2 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
     /* Header */
 
     #logo {
@@ -379,18 +410,14 @@ nav {
     .carousel-container {
         margin-top: 40px;
     }
-
-    #reasons>h2 {
-        font-size: 250%;
-    }
-
-    #reasons h3 {
-        font-size: 150%;
-    }
 }
 
 /* Media Query: tablets (768px and up) */
 @media screen and (min-width: 768px) {
+    /* General Styles */
+    h2 {
+        font-size: 400%;
+    }
 
     /* Header */
 
@@ -493,6 +520,10 @@ nav {
         margin-top: 67px;
     }
 
+    #rules {
+        margin: 1rem 2rem 0;
+    }    
+
     /* Footer */
     #footer {
         margin-top: 2rem;
@@ -536,6 +567,13 @@ nav {
 
 /* Media Query: laptop and desktop (1000px and up) */
 @media screen and (min-width: 1000px) {
+
+    /* General Styles */
+    .video-container {
+        /* 16:9 */
+        padding-bottom: 563px;
+    }
+
     /* Main - Index Page */
 
     /* Carousel image gallery */
@@ -652,14 +690,5 @@ nav {
     #rules-hero {
         height: 600px;
         background: url(../images/rugby_ref_wide.webp) no-repeat center top/cover;
-    }
-}
-
-/* Media Query: large desktop (1400px and up) */
-@media screen and (min-width: 1400px) {
-
-    /* Main - Index Page */
-    #reasons {
-        margin: 1rem auto 0;
     }
 }
