@@ -43,7 +43,7 @@ ul {
 
 /* General accordion styles */
 #accordion {
-    margin: 1rem 1rem 0;
+    margin: .5rem 1rem 0;
 }
 
 #accordion>ul {
@@ -94,7 +94,15 @@ ul {
 }
 
 .accordion-content p {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem 0;
+}
+
+/* .accordion-content .first-paragraph {
+    padding: 1rem 1rem 0;
+} */
+
+.accordion-content .last-paragraph {
+    padding: 1rem;
 }
 
 /* General video styles */
@@ -478,6 +486,36 @@ nav {
         font-size: 400%;
     }
 
+    h3 {
+        font-size: 250%;
+    }
+
+    /* General accordion styles */
+    #accordion {
+        margin: 1rem 2rem 0;
+    }
+
+    #accordion li {
+        margin-top: 1rem;
+    }
+
+    /* Changes accordion icons size */
+    #accordion li label span {
+        font-size: 150%;
+    }
+
+    .accordion-content .first-paragraph {
+        padding: 2rem 2rem 0;
+    }
+
+    .accordion-content p {
+        padding: 1rem 2rem 0;
+    }
+
+    .accordion-content .last-paragraph {
+        padding: 1rem 2rem 2rem;
+    }
+
     /* General video styles */
     .video-section {
         margin: 2rem 2rem 0;
@@ -532,17 +570,9 @@ nav {
         margin: 1rem 2rem 0;
     }
 
-    #reasons>h2 {
-        font-size: 400%;
-    }
-
     #reasons div div {
         margin-top: 1rem;
         padding: 2rem;
-    }
-
-    #reasons h3 {
-        font-size: 250%;
     }
 
     .text-right {
@@ -638,7 +668,25 @@ nav {
 /* Media Query: laptop and desktop (1000px and up) */
 @media screen and (min-width: 1000px) {
 
-    /* General Styles */
+    /* General accordion styles */
+    #accordion li {
+        margin: 1rem;
+    }
+
+    .accordion-content .first-paragraph {
+        padding: 3rem 3rem 0;
+    }
+
+    .accordion-content p {
+        padding: 1rem 3rem 0;
+        font-size: 120%;
+    }
+
+    .accordion-content .last-paragraph {
+        padding: 1rem 3rem 3rem;
+    }
+
+    /* General video styles */
     .video-container {
         /* 16:9 */
         padding-bottom: 563px;
