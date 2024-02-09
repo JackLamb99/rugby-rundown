@@ -75,6 +75,11 @@ ul {
 #accordion li div {
     background-color: #e2e2e2;
     border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+#accordion li div img {
+    display: none;
 }
 
 /* Hides accordion content when radio button unchecked */
@@ -96,10 +101,6 @@ ul {
 .accordion-content p {
     padding: 1rem 1rem 0;
 }
-
-/* .accordion-content .first-paragraph {
-    padding: 1rem 1rem 0;
-} */
 
 .accordion-content .last-paragraph {
     padding: 1rem;
@@ -504,12 +505,23 @@ nav {
         font-size: 150%;
     }
 
+    #accordion li div img {
+        display: initial;
+        width: auto;
+        height: 40vh;
+        max-height: 250px;
+        justify-content: center;
+        float: right;
+        margin: 2rem 2rem 1rem 1rem;
+    }
+
     .accordion-content .first-paragraph {
         padding: 2rem 2rem 0;
     }
 
     .accordion-content p {
         padding: 1rem 2rem 0;
+        text-align: justify;
     }
 
     .accordion-content .last-paragraph {
@@ -671,6 +683,11 @@ nav {
     /* General accordion styles */
     #accordion li {
         margin: 1rem;
+    }
+
+    #accordion li div img {
+        /* width: 450px; */
+        margin: 3rem 3rem 1rem 1rem;
     }
 
     .accordion-content .first-paragraph {
