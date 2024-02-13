@@ -53,6 +53,7 @@ ul {
 }
 
 #accordion li {
+    max-width: 1200px;
     margin-top: .5rem;
     background-color: #005da0;
     border-radius: 10px;
@@ -365,6 +366,25 @@ nav {
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
+/* Pitch Image */
+#rules-accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+#pitch {
+    height: fit-content;
+    width: 100%;
+    max-width: 600px;
+    margin: .5rem auto 0;
+}
+
+#pitch>img {
+    height: auto;
+    width: 100%;
+    margin-top: .5rem;
+}
+
 /* Footer */
 
 #footer {
@@ -514,7 +534,7 @@ nav {
         max-height: 250px;
         justify-content: center;
         float: right;
-        margin: 2rem 2rem .5rem 1rem;
+        margin: 2rem 2rem 0 1rem;
     }
 
     .accordion-content .first-paragraph {
@@ -633,6 +653,11 @@ nav {
         margin-top: 67px;
     }
 
+    /* Pitch Image */
+    #pitch>img {
+        margin-top: 1rem;
+    }
+
     /* Rules video */
     #rules-video {
         margin: 1rem 2rem 0;
@@ -684,12 +709,12 @@ nav {
 
     /* General accordion styles */
     #accordion li {
-        margin: 1rem;
+        margin: 1rem auto 0;
     }
 
     #accordion li div img {
         /* width: 450px; */
-        margin: 3rem 3rem 1rem 1rem;
+        margin: 3rem 3rem 0 1rem;
     }
 
     .accordion-content .first-paragraph {
@@ -827,5 +852,29 @@ nav {
     #rules-hero {
         height: 600px;
         background: url(../images/rugby_ref_wide.webp) no-repeat center top/cover;
+    }
+}
+
+/* Media Query: wide desktop (1400px and up) */
+@media screen and (min-width: 1400px) {
+
+    /* Main - Rules Page */
+
+    /* Pitch Image */
+    /* #rules-accordion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } */
+
+    #pitch {
+        height: fit-content;
+        width: 100%;
+        margin: 1rem auto 0;
+    }
+
+    #pitch>img {
+        height: auto;
+        width: 600px;
     }
 }
