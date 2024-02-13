@@ -78,6 +78,7 @@ ul {
     position: relative;
 }
 
+/* Hides accordion images for mobile view */
 #accordion li div img {
     display: none;
 }
@@ -505,6 +506,7 @@ nav {
         font-size: 150%;
     }
 
+    /* Displays accordion images in top right corner */
     #accordion li div img {
         display: initial;
         width: auto;
@@ -512,7 +514,7 @@ nav {
         max-height: 250px;
         justify-content: center;
         float: right;
-        margin: 2rem 2rem 1rem 1rem;
+        margin: 2rem 2rem .5rem 1rem;
     }
 
     .accordion-content .first-paragraph {
