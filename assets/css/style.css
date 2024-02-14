@@ -385,6 +385,16 @@ nav {
     margin-top: .5rem;
 }
 
+/* Main - Positions Page */
+
+/* Hero Image section */
+#positions-hero {
+    height: 400px;
+    width: 100%;
+    margin-top: 45px;
+    background: url(../images/rugby_positions.webp) no-repeat center top/cover;
+}
+
 /* Footer */
 
 #footer {
