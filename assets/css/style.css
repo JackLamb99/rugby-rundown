@@ -312,7 +312,6 @@ nav {
 }
 
 #rules-accordion li {
-    max-width: 1200px;
     margin-top: .5rem;
     background-color: #005da0;
     border-radius: 10px;
@@ -393,6 +392,11 @@ nav {
     margin: .5rem 1rem 0;
 }
 
+#positions-container {
+    max-width: 1250px;
+    margin: 0 auto 0;
+}
+
 #forwards-accordion {
     margin-top: .5rem;
 }
@@ -408,12 +412,10 @@ nav {
 
 .positions-accordion>ul {
     width: 100%;
-    /* max-width: 450px; */
     margin: 0 auto 0;
 }
 
 .positions-accordion li {
-    /* max-width: 1200px; */
     margin-top: .5rem;
     background-color: #005da0;
     border-radius: 10px;
@@ -943,16 +945,12 @@ nav {
         background: url(../images/rugby_ref_wide.webp) no-repeat center top/cover;
     }
 
-    /* Accordion styles */
-    #rules-accordion li {
-        margin: 1rem auto 0;
-    }
-
+    /* Rules accordion section */
     .accordion-content p {
         font-size: 120%;
     }
 
-    /* Main - Rules Page */
+    /* Pitch Image */
     #pitch {
         max-width: 900px;
         margin: 1rem auto 0;
@@ -964,5 +962,5 @@ nav {
     #positions-hero {
         height: 600px;
         background: url(../images/rugby_positions_wide.webp) no-repeat center top/cover;
-    }
+    }    
 }
