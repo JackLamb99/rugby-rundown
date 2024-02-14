@@ -300,7 +300,7 @@ nav {
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
-/* Rules accordion styles */
+/* Rules accordion section */
 #rules-accordion {
     margin: .5rem 1rem 0;
 }
@@ -444,35 +444,20 @@ nav {
     display: none;
 }
 
-/* Forwards accordion */
-/* Hides forwards accordion content when radio button unchecked */
-#forwards-accordion label+input[type="radio"] {
-    display: none;
-}
-
-#forwards-accordion .accordion-content {
-    max-height: 0;
-    overflow: hidden;
-}
-
-/* Reveals forwards accordion content when radio button checked */
-#forwards-accordion label+input[type="radio"]:checked+.accordion-content {
-    max-height: 800px;
-    padding: 1rem;
-}
-
-/* Backs accordion */
-/* Hides backs accordion content when radio button unchecked */
+/* Hides accordion content when radio button unchecked */
+#forwards-accordion label+input[type="radio"],
 #backs-accordion label+input[type="radio"] {
     display: none;
 }
 
+#forwards-accordion .accordion-content,
 #backs-accordion .accordion-content {
     max-height: 0;
     overflow: hidden;
 }
 
-/* Reveals forwards accordion content when radio button checked */
+/* Reveals accordion content when radio button checked */
+#forwards-accordion label+input[type="radio"]:checked+.accordion-content,
 #backs-accordion label+input[type="radio"]:checked+.accordion-content {
     max-height: 800px;
     padding: 1rem;
@@ -708,7 +693,7 @@ nav {
         margin-top: 67px;
     }
 
-    /* Accordion styles */
+    /* Rules accordion section */
     #rules-accordion {
         margin: 1rem 2rem 0;
     }
@@ -757,6 +742,36 @@ nav {
     #positions-hero {
         height: 500px;
         margin-top: 67px;
+    }
+
+    /* Positions accordion section */
+    #positions {
+        margin: 1rem 2rem 0;
+    }
+
+    .positions-accordion li {
+        margin-top: 1rem;
+    }
+
+    /* Changes accordion icons size */
+    .positions-accordion li label span {
+        font-size: 150%;
+    }
+
+    /* Displays accordion images in top right corner */
+    .positions-accordion li div img {
+        display: initial;
+        width: auto;
+        height: 40vh;
+        max-height: 250px;
+        justify-content: center;
+        float: right;
+        margin-left: 1rem;
+    }
+
+    #forwards-accordion label+input[type="radio"]:checked+.accordion-content,
+    #backs-accordion label+input[type="radio"]:checked+.accordion-content {
+        padding: 2rem;
     }
 
     /* Footer */
