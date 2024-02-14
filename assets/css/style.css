@@ -41,73 +41,6 @@ ul {
     list-style: none;
 }
 
-/* General accordion styles */
-#accordion {
-    margin: .5rem 1rem 0;
-}
-
-#accordion>ul {
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto 0;
-}
-
-#accordion li {
-    max-width: 1200px;
-    margin-top: .5rem;
-    background-color: #005da0;
-    border-radius: 10px;
-}
-
-#accordion li label {
-    padding: .5rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-/* Changes colour of accordion headings and icons */
-#accordion li label h3,
-#accordion li label span {
-    color: #ffffff;
-}
-
-#accordion li div {
-    background-color: #e2e2e2;
-    border-radius: 0 0 10px 10px;
-    position: relative;
-}
-
-/* Hides accordion images for mobile view */
-#accordion li div img {
-    display: none;
-}
-
-/* Hides accordion content when radio button unchecked */
-#accordion label+input[type="radio"] {
-    display: none;
-}
-
-#accordion .accordion-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-
-/* Reveals accordion content when radio button checked */
-#accordion label+input[type="radio"]:checked+.accordion-content {
-    max-height: 800px;
-}
-
-.accordion-content p {
-    padding: 1rem 1rem 0;
-}
-
-.accordion-content .last-paragraph {
-    padding: 1rem;
-}
-
 /* General video styles */
 .video-section {
     margin: 1rem 1rem 0;
@@ -366,6 +299,65 @@ nav {
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
+/* Accordion styles */
+#rules-accordion {
+    margin: .5rem 1rem 0;
+}
+
+#rules-accordion>ul {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto 0;
+}
+
+#rules-accordion li {
+    max-width: 1200px;
+    margin-top: .5rem;
+    background-color: #005da0;
+    border-radius: 10px;
+}
+
+#rules-accordion li label {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Changes colour of accordion headings and icons */
+#rules-accordion li label h3,
+#rules-accordion li label span {
+    color: #ffffff;
+}
+
+#rules-accordion li div {
+    background-color: #e2e2e2;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+/* Hides accordion images for mobile view */
+#rules-accordion li div img {
+    display: none;
+}
+
+/* Hides accordion content when radio button unchecked */
+#rules-accordion label+input[type="radio"] {
+    display: none;
+}
+
+#rules-accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Reveals accordion content when radio button checked */
+#rules-accordion label+input[type="radio"]:checked+.accordion-content {
+    max-height: 800px;
+    padding: 1rem;
+}
+
 /* Pitch Image */
 #rules-accordion {
     display: flex;
@@ -522,44 +514,6 @@ nav {
         font-size: 250%;
     }
 
-    /* General accordion styles */
-    #accordion {
-        margin: 1rem 2rem 0;
-    }
-
-    #accordion li {
-        margin-top: 1rem;
-    }
-
-    /* Changes accordion icons size */
-    #accordion li label span {
-        font-size: 150%;
-    }
-
-    /* Displays accordion images in top right corner */
-    #accordion li div img {
-        display: initial;
-        width: auto;
-        height: 40vh;
-        max-height: 250px;
-        justify-content: center;
-        float: right;
-        margin: 2rem 2rem 0 1rem;
-    }
-
-    .accordion-content .first-paragraph {
-        padding: 2rem 2rem 0;
-    }
-
-    .accordion-content p {
-        padding: 1rem 2rem 0;
-        text-align: justify;
-    }
-
-    .accordion-content .last-paragraph {
-        padding: 1rem 2rem 2rem;
-    }
-
     /* General video styles */
     .video-section {
         margin: 2rem 2rem 0;
@@ -663,6 +617,39 @@ nav {
         margin-top: 67px;
     }
 
+    /* Accordion styles */
+    #rules-accordion {
+        margin: 1rem 2rem 0;
+    }
+
+    #rules-accordion li {
+        margin-top: 1rem;
+    }
+
+    /* Changes accordion icons size */
+    #rules-accordion li label span {
+        font-size: 150%;
+    }
+
+    /* Displays accordion images in top right corner */
+    #rules-accordion li div img {
+        display: initial;
+        width: auto;
+        height: 40vh;
+        max-height: 250px;
+        justify-content: center;
+        float: right;
+        margin-left: 1rem;
+    }
+
+    .accordion-content p {
+        text-align: justify;
+    }
+
+    #rules-accordion label+input[type="radio"]:checked+.accordion-content {
+        padding: 2rem;
+    }
+
     /* Pitch Image */
     #pitch>img {
         margin-top: 1rem;
@@ -725,29 +712,6 @@ nav {
 
 /* Media Query: laptop and desktop (1000px and up) */
 @media screen and (min-width: 1000px) {
-
-    /* General accordion styles */
-    #accordion li {
-        margin: 1rem auto 0;
-    }
-
-    #accordion li div img {
-        /* width: 450px; */
-        margin: 3rem 3rem 0 1rem;
-    }
-
-    .accordion-content .first-paragraph {
-        padding: 3rem 3rem 0;
-    }
-
-    .accordion-content p {
-        padding: 1rem 3rem 0;
-        font-size: 120%;
-    }
-
-    .accordion-content .last-paragraph {
-        padding: 1rem 3rem 3rem;
-    }
 
     /* General video styles */
     .video-container {
@@ -871,6 +835,15 @@ nav {
     #rules-hero {
         height: 600px;
         background: url(../images/rugby_ref_wide.webp) no-repeat center top/cover;
+    }
+
+    /* Accordion styles */
+    #rules-accordion li {
+        margin: 1rem auto 0;
+    }
+
+    .accordion-content p {
+        font-size: 120%;
     }
 
     /* Main - Rules Page */
