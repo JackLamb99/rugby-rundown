@@ -393,6 +393,19 @@ nav {
     margin: .5rem 1rem 0;
 }
 
+#forwards-accordion {
+    margin-top: .5rem;
+}
+
+#backs-accordion {
+    margin-top: 1rem;
+}
+
+.positions-accordion>h3,
+.positions-accordion>p {
+    text-align: center;
+}
+
 .positions-accordion>ul {
     width: 100%;
     /* max-width: 450px; */
@@ -431,7 +444,8 @@ nav {
     display: none;
 }
 
-/* Hides accordion content when radio button unchecked */
+/* Forwards accordion */
+/* Hides forwards accordion content when radio button unchecked */
 #forwards-accordion label+input[type="radio"] {
     display: none;
 }
@@ -441,8 +455,25 @@ nav {
     overflow: hidden;
 }
 
-/* Reveals accordion content when radio button checked */
+/* Reveals forwards accordion content when radio button checked */
 #forwards-accordion label+input[type="radio"]:checked+.accordion-content {
+    max-height: 800px;
+    padding: 1rem;
+}
+
+/* Backs accordion */
+/* Hides backs accordion content when radio button unchecked */
+#backs-accordion label+input[type="radio"] {
+    display: none;
+}
+
+#backs-accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Reveals forwards accordion content when radio button checked */
+#backs-accordion label+input[type="radio"]:checked+.accordion-content {
     max-height: 800px;
     padding: 1rem;
 }
