@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -299,7 +300,7 @@ nav {
     background: url(../images/rugby_ref.webp) no-repeat center top/cover;
 }
 
-/* Accordion styles */
+/* Rules accordion styles */
 #rules-accordion {
     margin: .5rem 1rem 0;
 }
@@ -385,6 +386,65 @@ nav {
     width: 100%;
     margin-top: 45px;
     background: url(../images/rugby_positions.webp) no-repeat center top/cover;
+}
+
+/* Positions accordion section */
+#positions {
+    margin: .5rem 1rem 0;
+}
+
+.positions-accordion>ul {
+    width: 100%;
+    /* max-width: 450px; */
+    margin: 0 auto 0;
+}
+
+.positions-accordion li {
+    /* max-width: 1200px; */
+    margin-top: .5rem;
+    background-color: #005da0;
+    border-radius: 10px;
+}
+
+.positions-accordion li label {
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Changes colour of accordion headings and icons */
+.positions-accordion li label h3,
+.positions-accordion li label span {
+    color: #ffffff;
+}
+
+.positions-accordion li div {
+    background-color: #e2e2e2;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+/* Hides accordion images for mobile view */
+.positions-accordion li div img {
+    display: none;
+}
+
+/* Hides accordion content when radio button unchecked */
+#forwards-accordion label+input[type="radio"] {
+    display: none;
+}
+
+#forwards-accordion .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Reveals accordion content when radio button checked */
+#forwards-accordion label+input[type="radio"]:checked+.accordion-content {
+    max-height: 800px;
+    padding: 1rem;
 }
 
 /* Footer */
