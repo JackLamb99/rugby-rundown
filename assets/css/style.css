@@ -946,6 +946,7 @@ nav {
     }
 
     /* Rules accordion section */
+    .positions-accordion p,
     .accordion-content p {
         font-size: 120%;
     }
