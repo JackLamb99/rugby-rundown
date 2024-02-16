@@ -461,7 +461,7 @@ nav {
 /* Reveals accordion content when radio button checked */
 #forwards-accordion label+input[type="radio"]:checked+.accordion-content,
 #backs-accordion label+input[type="radio"]:checked+.accordion-content {
-    max-height: 800px;
+    max-height: 1000px;
     padding: 1rem;
 }
 
@@ -751,6 +751,14 @@ nav {
         margin: 1rem 2rem 0;
     }
 
+    .positions-accordion>h3 {
+        font-size: 300%;
+    }
+
+    .positions-accordion>p {
+        font-size: 120%;
+    }
+
     .positions-accordion li {
         margin-top: 1rem;
     }
@@ -946,7 +954,10 @@ nav {
     }
 
     /* Rules accordion section */
-    .positions-accordion p,
+    .positions-accordion>p {
+        font-size: 140%;
+    }
+
     .accordion-content p {
         font-size: 120%;
     }
@@ -963,5 +974,5 @@ nav {
     #positions-hero {
         height: 600px;
         background: url(../images/rugby_positions_wide.webp) no-repeat center top/cover;
-    }    
+    }
 }
