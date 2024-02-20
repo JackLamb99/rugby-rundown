@@ -182,16 +182,16 @@
             <!-- Newsletter sign up form -->
             <div id="newsletter">
                 <h2>Newsletter</h2>
-                <form action="newsletter.html" method="get">
+                <form action="newsletter.html">
                     <div class="name-inputs">
                         <input id="newsletter-fname" class="newsletter-input newsletter-name" type="text"
-                            placeholder="First Name *" name="fname" required>
+                            placeholder="First Name *" name="fname" aria-label="first name" required>
                         <input id="newsletter-lname" class="newsletter-input newsletter-name" type="text"
-                            placeholder="Last Name (Optional)" name="lname">
+                            placeholder="Last Name (Optional)" name="lname" aria-label="last name, optional">
                     </div>
                     <div class="email-input">
-                        <input class="newsletter-input newsletter-email" type="email" placeholder="Email *" name="email"
-                            required>
+                        <input id="newsletter-email" class="newsletter-input newsletter-email" type="email"
+                            placeholder="Email *" name="email" aria-label="email address" required>
                     </div>
                     <div class="button-inputs">
                         <button id="newsletter-submit" class="newsletter-btn" type="submit">Sign up</button>
