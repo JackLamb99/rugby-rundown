@@ -26,7 +26,7 @@
         <!-- Rugby Rundown logo -->
         <a href="index.html" aria-label="Rugby Union logo">
             <h1 id="logo">Rugby<img id="logo-img" src="assets/images/logo_player.webp"
-                    alt="Rugby player running with ball">Rundown</h1>
+                    alt="Rugby player running with ball" aria-hidden="true">Rundown</h1>
         </a>
         <!-- Toggle for nav menu -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -56,6 +56,7 @@
     <main>
         <!-- Carousel Gallery -->
         <section id="index-hero">
+            <h2 class="hidden">Image Gallery</h2>
             <div class="carousel-container">
                 <div class="carousel">
                     <img src="assets/images/carousel_image_1.webp"
@@ -68,12 +69,13 @@
                         alt="A rugby player sprinting down the pitch after avoiding a tackle">
                     <img src="assets/images/carousel_image_5.webp"
                         alt="A group of junior rugby players tackling an opposing player as they score a try">
-                    <!-- Image reqired for loop effect -->
+                    <!-- Image reqired for loop effect, hidden for screen-readers -->
                     <img src="assets/images/carousel_image_1.webp"
-                        alt="A rugby player passing the ball after recovering it from a ruck">
-                    <!-- Image reqired for loop effect on desktop view-->
+                        alt="A rugby player passing the ball after recovering it from a ruck" aria-hidden="true">
+                    <!-- Image reqired for loop effect on desktop view, hidden for screen-readers -->
                     <img src="assets/images/carousel_image_2.webp"
-                        alt="A rugby player lining up to take a penalty kick on a muddy pitch in the rain">
+                        alt="A rugby player lining up to take a penalty kick on a muddy pitch in the rain"
+                        aria-hidden="true">
                 </div>
             </div>
         </section>
@@ -82,7 +84,7 @@
             <h2>Why we love Rugby Union</h2>
             <div class="reasons-first-half">
                 <div id="teamwork">
-                    <h3>Teamwork <i class="fa-solid fa-people-carry-box"></i></h3>
+                    <h3>Teamwork <i class="fa-solid fa-people-carry-box" aria-hidden="true"></i></h3>
                     <p>
                         In rugby, teamwork is everything. Players work together seamlessly, relying on each other's
                         strengths to drive the ball forward. From a coordinated attack to a solid defence, the game
@@ -90,8 +92,8 @@
                     </p>
                 </div>
                 <div id="inclusiveness" class="text-right">
-                    <h3><i id="left-icon" class="fa-solid fa-users-gear"></i> Inclusiveness <i id="right-icon"
-                            class="fa-solid fa-users-gear"></i></h3>
+                    <h3><i id="left-icon" class="fa-solid fa-users-gear" aria-hidden="true"></i> Inclusiveness <i
+                            id="right-icon" class="fa-solid fa-users-gear" aria-hidden="true"></i></h3>
                     <p>
                         Rugby is a sport where everyone is welcome and differences are celebrated, because it takes
                         players of all shapes, sizes, strengths and speeds to drive a team to victory. Like unique gears
@@ -101,7 +103,7 @@
             </div>
             <div class="reasons-second-half">
                 <div id="respect">
-                    <h3>Respect <i class="fa-solid fa-handshake-simple"></i></h3>
+                    <h3>Respect <i class="fa-solid fa-handshake-simple" aria-hidden="true"></i></h3>
                     <p>
                         Respect is foundational in rugby. On and off the field, players uphold the value of
                         sportsmanship, towards opponents and officials alike. Whether in victory or defeat, rugby
@@ -109,8 +111,8 @@
                     </p>
                 </div>
                 <div id="history" class="text-right">
-                    <h3><i id="left-icon" class="fa-solid fa-hourglass-half"></i> History <i id="right-icon"
-                            class="fa-solid fa-hourglass-half"></i></h3>
+                    <h3><i id="left-icon" class="fa-solid fa-hourglass-half" aria-hidden="true"></i> History <i
+                            id="right-icon" class="fa-solid fa-hourglass-half" aria-hidden="true"></i></h3>
                     <p>
                         Rugby boasts a rich and storied history, spanning centuries. Originating in England in the 19th
                         century, it has evolved into a global phenomenon, captivating players and fans worldwide with
@@ -127,24 +129,27 @@
             <h2>Find your local club</h2>
             <div id="link-uk-rugby">
                 <div id="england-rugby">
-                    <a href="https://www.englandrugby.com/find-rugby/" target="_blank">
-                        <img src="assets/images/england_rugby_logo.webp" alt="England Rugby club finder">
+                    <a href="https://www.englandrugby.com/find-rugby/" target="_blank"
+                        aria-label="Click to open the England rugby club finder page, opens in a new tab">
+                        <img src="assets/images/england_rugby_logo.webp" alt="England Rugby logo">
                     </a>
                 </div>
                 <div id="ireland-rugby">
                     <a href="https://www.irishrugby.ie/playing-the-game/women/give-it-a-try/find-a-club/"
-                        target="_blank">
-                        <img src="assets/images/ireland_rugby_logo.webp" alt="Ireland Rugby club finder">
+                        target="_blank" aria-label="Click to open the Ireland rugby club finder page, opens in a new tab">
+                        <img src="assets/images/ireland_rugby_logo.webp" alt="Ireland Rugby logo">
                     </a>
                 </div>
                 <div id="scotland-rugby">
-                    <a href="https://scottishrugby.org/clubs-and-schools/ways-to-play/" target="_blank">
-                        <img src="assets/images/scotland_rugby_logo.webp" alt="Scotland Rugby club finder">
+                    <a href="https://scottishrugby.org/clubs-and-schools/ways-to-play/" target="_blank"
+                        aria-label="Click to open the Scotland rugby club finder page, opens in a new tab">
+                        <img src="assets/images/scotland_rugby_logo.webp" alt="Scotland Rugby logo">
                     </a>
                 </div>
                 <div id="wales-rugby">
-                    <a href="https://community.wru.wales/club/club-finder/" target="_blank">
-                        <img src="assets/images/wales_rugby_logo.webp" alt="Wales Rugby club finder">
+                    <a href="https://community.wru.wales/club/club-finder/" target="_blank"
+                        aria-label="Click to open the Wales rugby club finder page, opens in a new tab">
+                        <img src="assets/images/wales_rugby_logo.webp" alt="Wales Rugby logo">
                     </a>
                 </div>
             </div>
@@ -156,6 +161,7 @@
         <section id="footer-container">
             <!-- Social Media links -->
             <div id="social-media">
+                <h2 class="hidden">Social media links</h2>
                 <ul>
                     <li>
                         <a href="https://www.youtube.com/" target="_blank" class="social-media-link"

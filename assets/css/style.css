@@ -42,6 +42,10 @@ ul {
     list-style: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* General video styles */
 .video-section {
     margin: 1rem 1rem 0;

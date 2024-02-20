@@ -15,9 +15,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
         <!-- Rugby Rundown logo -->
         <a href="index.html" aria-label="Rugby Union logo">
             <h1 id="logo">Rugby<img id="logo-img" src="assets/images/logo_player.webp"
-                    alt="Rugby player running with ball">Rundown</h1>
+                    alt="Rugby player running with ball" aria-hidden="true">Rundown</h1>
         </a>
         <!-- Toggle for nav menu -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -74,7 +74,7 @@
                         <li>
                             <label for="positions-props">
                                 <h3>Props</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -101,7 +101,7 @@
                         <li>
                             <label for="positions-hooker">
                                 <h3>Hooker</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -129,7 +129,7 @@
                         <li>
                             <label for="positions-locks">
                                 <h3>Locks</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -158,7 +158,7 @@
                         <li>
                             <label for="positions-flankers">
                                 <h3>Flankers</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -197,7 +197,7 @@
                         <li>
                             <label for="positions-number-8">
                                 <h3>Number 8</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -246,7 +246,7 @@
                         <li>
                             <label for="positions-scrum-half">
                                 <h3>Scrum-half</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -276,7 +276,7 @@
                         <li>
                             <label for="positions-fly-half">
                                 <h3>Fly-half</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -305,7 +305,7 @@
                         <li>
                             <label for="positions-centres">
                                 <h3>Centres</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -334,7 +334,7 @@
                         <li>
                             <label for="positions-wingers">
                                 <h3>Wingers</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -366,7 +366,7 @@
                         <li>
                             <label for="positions-full-back">
                                 <h3>Full-back</h3>
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </label>
@@ -396,6 +396,7 @@
             </div>
         </section>
         <section class="video-section">
+            <h2 class="hidden">Positions explanation video</h2>
             <div class="video-container">
                 <!-- Code from YouTube embedding tool -->
                 <iframe class="video" width="560" height="315"
@@ -412,6 +413,7 @@
         <section id="footer-container">
             <!-- Social Media links -->
             <div id="social-media">
+                <h2 class="hidden">Social media links</h2>
                 <ul>
                     <li>
                         <a href="https://www.youtube.com/" target="_blank" class="social-media-link"
