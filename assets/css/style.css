@@ -471,11 +471,20 @@ nav {
 
 /* Main - Newsletter */
 
+#newsletter-main {
+    /* Sets height to viewport height minus the header and footer */
+    height: calc(100vh - 117px);
+    /* Fixes display issue on small landscape devices */
+    min-height: 400px;
+    /* Makes space for the header */
+    margin-top: 45px;
+}
+
 #newsletter-response {
     display: flex;
     flex-direction: column;
-    height: 82vh;
-    margin: 45px 1rem 72px;
+    height: 100%;
+    margin: 0 1rem 0;
     justify-content: center;
 }
 
@@ -507,11 +516,8 @@ nav {
     margin-top: 1rem;
 }
 
-/* Fixed footer for newletter page */
+/* Removes margin on Newsletter footer */
 .newsletter-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     margin-top: 0 !important;
 }
 
