@@ -477,14 +477,13 @@ nav {
     /* Fixes display issue on small landscape devices */
     min-height: 400px;
     /* Makes space for the header */
-    margin-top: 45px;
+    margin: 45px 1rem 0;
 }
 
 #newsletter-response {
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin: 0 1rem 0;
     justify-content: center;
 }
 
@@ -840,7 +839,7 @@ nav {
         /* Fixes display issue on larger landscape devices */
         min-height: 700px;
         /* Increases space for the header */
-        margin-top: 67px;
+        margin: 67px 2rem 0;
     }
 
     /* Increases email image size */
@@ -1046,5 +1045,24 @@ nav {
     #positions-hero {
         height: 600px;
         background: url(../images/rugby_positions_wide.webp) no-repeat center top/cover;
+    }
+
+    /* Main - Newsletter */
+
+    #newsletter-main {
+        min-height: initial;
+    }
+
+    #newsletter-response {
+        flex-direction: row;
+        max-width: 1250px;
+        margin: 0 auto 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #email-img,
+    #newsletter-message {
+        margin: 0;
     }
 }
