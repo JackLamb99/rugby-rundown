@@ -469,11 +469,50 @@ nav {
     padding: 1rem;
 }
 
+/* Main - Newsletter */
+
+#newsletter-response {
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+    margin: 45px 1rem 72px;
+    justify-content: center;
+}
+
+/* Email image */
+#email-img {
+    margin: 0 auto 0;
+    height: 200px;
+}
+
+#email-img>img {
+    width: fit-content;
+    height: 100%;
+}
+
+#newsletter-message {
+    margin: 1rem auto 0;
+}
+
+#newsletter-message>p {
+    font-size: 120%;
+    text-align: center;
+    max-width: 600px;
+}
+
 /* Footer */
 
 #footer {
     background-color: #000030;
     margin-top: 1rem;
+}
+
+/* Fixed footer for newletter page */
+.newsletter-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0 !important;
 }
 
 /* Social Media links */
