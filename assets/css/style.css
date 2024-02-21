@@ -495,7 +495,6 @@ nav {
 }
 
 #email-img>img {
-    width: fit-content;
     height: 100%;
 }
 
@@ -831,6 +830,30 @@ nav {
     #forwards-accordion label+input[type="radio"]:checked+.accordion-content,
     #backs-accordion label+input[type="radio"]:checked+.accordion-content {
         padding: 2rem;
+    }
+
+    /* Main - Newsletter */
+
+    #newsletter-main {
+        /* Sets height to viewport height minus the larger header and footer */
+        height: calc(100vh - 159px);
+        /* Fixes display issue on larger landscape devices */
+        min-height: 700px;
+        /* Increases space for the header */
+        margin-top: 67px;
+    }
+
+    /* Increases email image size */
+    #email-img {
+        height: 400px;
+    }
+
+    #newsletter-message {
+        margin: 2rem auto 0;
+    }
+
+    #newsletter-message>p {
+        font-size: 160%;
     }
 
     /* Footer */
