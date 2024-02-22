@@ -346,8 +346,8 @@ nav {
     display: none;
 }
 
-/* Hides accordion content when radio button unchecked */
-#rules-accordion label+input[type="radio"] {
+/* Hides accordion content when checkbox is unchecked */
+#rules-accordion label+input[type="checkbox"] {
     display: none;
 }
 
@@ -356,8 +356,8 @@ nav {
     overflow: hidden;
 }
 
-/* Reveals accordion content when radio button checked */
-#rules-accordion label+input[type="radio"]:checked+.accordion-content {
+/* Reveals accordion content when checkbox is checked */
+#rules-accordion label+input[type="checkbox"]:checked+.accordion-content {
     max-height: 800px;
     padding: 1rem;
 }
@@ -450,9 +450,9 @@ nav {
     display: none;
 }
 
-/* Hides accordion content when radio button unchecked */
-#forwards-accordion label+input[type="radio"],
-#backs-accordion label+input[type="radio"] {
+/* Hides accordion content when checkbox is unchecked */
+#forwards-accordion label+input[type="checkbox"],
+#backs-accordion label+input[type="checkbox"] {
     display: none;
 }
 
@@ -462,9 +462,9 @@ nav {
     overflow: hidden;
 }
 
-/* Reveals accordion content when radio button checked */
-#forwards-accordion label+input[type="radio"]:checked+.accordion-content,
-#backs-accordion label+input[type="radio"]:checked+.accordion-content {
+/* Reveals accordion content when checkbox is checked */
+#forwards-accordion label+input[type="checkbox"]:checked+.accordion-content,
+#backs-accordion label+input[type="checkbox"]:checked+.accordion-content {
     max-height: 1000px;
     padding: 1rem;
 }
@@ -805,7 +805,7 @@ nav {
         text-align: justify;
     }
 
-    #rules-accordion label+input[type="radio"]:checked+.accordion-content {
+    #rules-accordion label+input[type="checkbox"]:checked+.accordion-content {
         padding: 2rem;
     }
 
@@ -860,8 +860,8 @@ nav {
         margin-left: 1rem;
     }
 
-    #forwards-accordion label+input[type="radio"]:checked+.accordion-content,
-    #backs-accordion label+input[type="radio"]:checked+.accordion-content {
+    #forwards-accordion label+input[type="checkbox"]:checked+.accordion-content,
+    #backs-accordion label+input[type="checkbox"]:checked+.accordion-content {
         padding: 2rem;
     }
 
