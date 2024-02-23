@@ -12,7 +12,7 @@
 
 * The navigation menu contains the **Rugby Rundown** logo, which takes users to the *Home* page when clicked, as well as individual links to the *Home*, *Positions* and *Rules* pages.
 * All of these options are accessible to visually impaired users who may be using a screen reader, by the use of aria-labels.
-* It uses a drop-down tab option for convenient space-saving on smaller devices (less than 768px wide), making it responsive on all devices.
+* It uses a drop-down tab option for convenient space-saving on smaller screens (less than 768px wide), making it responsive on all devices.
 * This allows users to easily navigate between pages, with the current page clearly highlighted.
 
 ![Navigation Menu](docs/readme_images/navigation_menu.JPG)
@@ -43,3 +43,31 @@
 ![404 Page](docs/readme_images/404_page.JPG)
 
 ***
+
+### Landing Page
+
+#### Gallery
+
+* The image gallery contains a variety of images that capture different elements of the Rugby Union sport.
+* A single image is visible on smaller screens (less than 1000px) and two images are visible at a time on larger screens, so the gallery is responsive on all devices. The images are in a carousel format and change on a timer.
+* The purpose of the gallery is to clearly indicate the subject of the website to the user.
+
+![Landing Page Gallery](docs/readme_images/landing_page_gallery.JPG)
+
+#### Reasons To Love The Sport
+
+* This section describes the reasons we, Rugby Rundown, love the sport and it highlights four core values. These reasons are short and direct in order to gain the users initial interest in the website.
+* The boxes stack on smaller screens (less than 1000px) and form a grid on larger screens, making it responsive on all devices.
+
+![Reasons](docs/readme_images/reasons.JPG)
+
+#### Club Finder
+
+* This section has a logo for each of the British and Irish national rugby teams and links to their rugby club finder tools, which open in a new tab.
+* These links are accessible for visually impaired users by the use of aria-labels.
+
+![Club Finder](docs/readme_images/club_finder_links.JPG)
+
+***
+
+### Rules Page
