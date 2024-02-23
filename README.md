@@ -86,5 +86,13 @@
 * An accordion is used to list the major rules of the sport. The user has full control over the opening and closing of each rule through the use of *Checkbox* inputs that toggle the *Display* property of the content.
 * A related image is incorporated into each rule to help the user visualise the content, these images are hidden on mobile devices (under 768px) for space-saving.
 
-<video controls src="docs/readme_images/rules_accordion.mp4" title="Rules Accordion" width="600px"></video>
+![Rules Accordion](docs/readme_images/rules_accordion.JPG)
 
+#### Rules Video
+
+* A video is included from the England Rugby YouTube page that explains the basics of Rugby Union.
+* The video includes controls and is responsive on all devices.
+
+![Rules Video](docs/readme_images/rules_video.JPG)
+
+***
