@@ -56,7 +56,7 @@
 
 #### Reasons To Love The Sport
 
-* This section describes the reasons we, Rugby Rundown, love the sport and it highlights four core values. These reasons are short and direct in order to gain the users initial interest in the website.
+* This section describes the reasons we, **Rugby Rundown**, love the sport and it highlights four core values. These reasons are short and direct in order to gain the users initial interest in the website.
 * The boxes stack on smaller screens (less than 1000px) and form a grid on larger screens, making it responsive on all devices.
 
 ![Reasons](docs/readme_images/reasons.JPG)
@@ -71,3 +71,20 @@
 ***
 
 ### Rules Page
+
+#### Rules Hero Image
+
+* The hero image for the *Rules* page features referees to highlight the importance of the laws in the sport, therefore the importance of the following content.
+* An image with a more centralised focus is used for smaller screens (under 1000px) and a wider image is used for larger screens to make this section responsive and visually appealing on all devices.
+
+![Rules Hero Image](docs/readme_images/rules_hero_image.JPG)
+
+![Rules Hero Image - Mobile](docs/readme_images/rules_hero_image_mobile.JPG)
+
+#### Rules Accordion
+
+* An accordion is used to list the major rules of the sport. The user has full control over the opening and closing of each rule through the use of *Checkbox* inputs that toggle the *Display* property of the content.
+* A related image is incorporated into each rule to help the user visualise the content, these images are hidden on mobile devices (under 768px) for space-saving.
+
+<video controls src="docs/readme_images/rules_accordion.mp4" title="Rules Accordion" width="600px"></video>
+
