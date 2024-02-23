@@ -249,7 +249,8 @@ nav {
     background-color: #005da0;
 }
 
-#left-icon {
+#left-icon-1,
+#left-icon-2 {
     display: none;
 }
 
@@ -322,6 +323,11 @@ nav {
 }
 
 #rules-accordion li label {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
@@ -329,10 +335,9 @@ nav {
     cursor: pointer;
 }
 
-/* Changes colour of accordion headings and icons */
-#rules-accordion li label h3,
+/* Changes size of accordion arrow icons */
 #rules-accordion li label span {
-    color: #ffffff;
+    font-size: 20px;
 }
 
 #rules-accordion li div {
@@ -426,6 +431,11 @@ nav {
 }
 
 .positions-accordion li label {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
     padding: .5rem 1rem;
     display: flex;
     align-items: center;
@@ -433,10 +443,9 @@ nav {
     cursor: pointer;
 }
 
-/* Changes colour of accordion headings and icons */
-.positions-accordion li label h3,
+/* Changes size of accordion arrow icons */
 .positions-accordion li label span {
-    color: #ffffff;
+    font-size: 20px;
 }
 
 .positions-accordion li div {
@@ -608,13 +617,20 @@ nav {
 
 #error-page>p {
     font-size: 120%;
-    margin: 1rem 0 1.5rem;
+    margin: 1rem auto 2rem;
+}
+
+#error-page>a {
+    text-decoration: none;
+    width: fit-content;
 }
 
 #home-btn {
     font-size: 150%;
+    text-align: center;
     color: #ffffff;
     background-color: #005da0;
+    width: fit-content;
     padding: .5rem;
     border: 2px solid #005da0;
     border-radius: 5px;
@@ -736,11 +752,13 @@ nav {
         text-align: right;
     }
 
-    #left-icon {
+    #left-icon-1,
+    #left-icon-2 {
         display: initial;
     }
 
-    #right-icon {
+    #right-icon-1,
+    #right-icon-2 {
         display: none;
     }
 
@@ -785,9 +803,13 @@ nav {
         margin-top: 1rem;
     }
 
-    /* Changes accordion icons size */
+    #rules-accordion li label {
+        font-size: 40px;
+    }
+    
+    /* Changes size of accordion arrow icons */
     #rules-accordion li label span {
-        font-size: 150%;
+        font-size: 25px;
     }
 
     /* Displays accordion images in top right corner */
@@ -844,9 +866,13 @@ nav {
         margin-top: 1rem;
     }
 
-    /* Changes accordion icons size */
+    .positions-accordion li label {
+        font-size: 40px;
+    }
+    
+    /* Changes size of accordion arrow icons */
     .positions-accordion li label span {
-        font-size: 150%;
+        font-size: 25px;
     }
 
     /* Displays accordion images in top right corner */
@@ -943,6 +969,7 @@ nav {
 
     #error-page>p {
         font-size: 150%;
+        margin: 1rem auto 3rem;
     }
 
     #home-btn {
