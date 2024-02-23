@@ -42,8 +42,6 @@
 
 ![404 Page](docs/readme_images/404_page.JPG)
 
-***
-
 ### Landing Page
 
 #### Gallery
@@ -68,8 +66,6 @@
 
 ![Club Finder](docs/readme_images/club_finder_links.JPG)
 
-***
-
 ### Rules Page
 
 #### Rules Hero Image
@@ -83,16 +79,45 @@
 
 #### Rules Accordion
 
-* An accordion is used to list the major rules of the sport. The user has full control over the opening and closing of each rule through the use of *Checkbox* inputs that toggle the *Display* property of the content.
+* An *Accordion* is used to list the major rules of the sport. The user has full control over the opening and closing of each rule through the use of *Checkbox* inputs that toggle the *Display* property of the content.
 * A related image is incorporated into each rule to help the user visualise the content, these images are hidden on mobile devices (under 768px) for space-saving.
 
 ![Rules Accordion](docs/readme_images/rules_accordion.JPG)
 
 #### Rules Video
 
-* A video is included from the England Rugby YouTube page that explains the basics of Rugby Union.
+* A video is included from the *England Rugby* YouTube page that explains the basics of Rugby Union.
 * The video includes controls and is responsive on all devices.
 
 ![Rules Video](docs/readme_images/rules_video.JPG)
 
-***
+### Positions Page
+
+#### Positions Hero Image
+
+* The page features a hero image that shows various players and their position numbers. An image with a more centralised focus is used for smaller screens (under 1000px) and a wider image is used for larger screens to make this section responsive and visually appealing on all devices.
+
+![Positions Hero Image](docs/readme_images/positions_hero_image.JPG)
+
+![Positions Hero Image - Mobile](docs/readme_images/positions_hero_image_mobile.JPG)
+
+#### Forwards Accordion
+
+* An *Accordion* is used to list the *Forwards* positions. The user has full control over the opening and closing of each position through the use of *Checkbox* inputs that toggle the *Display* property of the content.
+* An image is incorporated into each content section to highlight each position's place on the pitch, these images are hidden on mobile devices (under 768px) for space-saving.
+
+![Forwards Accordion](docs/readme_images/forwards_accordion.JPG)
+
+#### Backs Accordion
+
+* The same *Accordion* code structure is used to list the *Backs* positions and the user has the same control over the opening and closing of each position.
+* The images highlighting each position's place on the pitch are continued and are also hidden on mobile devices (under 768px) for space-saving.
+
+![Backs Accordion](docs/readme_images/backs_accordion.JPG)
+
+#### Positions Video
+
+* A video is included from the *Leicester Tigers* YouTube page that explains the player's positions in Rugby Union.
+* The video includes controls and is responsive on all devices.
+
+![Positions Video](docs/readme_images/positions_video.JPG)
