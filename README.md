@@ -171,3 +171,29 @@ The images throughout the website have been taken from multiple sources due to t
 ### Colour Palette
 
 ![Colour Palette](docs/readme_images/colour_palette.png)
+
+## Technologies
+
+The following technologies were used in the creation of the website:
+
+**HTML** - The structure of the website was developed using HTML
+
+**CSS** - The website was styled using custom CSS in an external file
+
+[**Gitpod**](https://www.gitpod.io/) - The website was developed using the Gitpod cloud-based IDE
+
+[**GitHub**](https://github.com/) - The source code is hosted on GitHub and deployed using Git Pages
+
+**Git** - Used to commit and push code during the development of the website
+
+[**Balsamiq**](https://balsamiq.com/wireframes/desktop/) - Wireframes were created using the Balsamiq desktop application
+
+[**Google Fonts**](https://fonts.google.com/) - Used to find and import the *Jockey One* and *Lexend* fonts used throughout the website
+
+[**Favicon.io**](https://favicon.io/) - Used to find and import the rugby ball favicon
+
+[**Font Awesome**](https://fontawesome.com/) - Used to find and import all icons used throughout the website
+
+[**Free Convert**](https://www.freeconvert.com/) - Used to convert the images used in the website to WEBP format
+
+[**Tinify**](https://tinypng.com/) - Used to compress the images to reduce file sizes for improved performance
