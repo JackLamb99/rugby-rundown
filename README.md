@@ -158,3 +158,16 @@
 #### Positions Page
 
 ![Positions Page Design](docs/readme_images/positions_page_design.JPG)
+
+### Imagery
+
+The images throughout the website have been taken from multiple sources due to the lack of relevant contextual images available from free image sources, all are credited below.
+
+### Typography
+
+* The Jockey One font from Google Fonts was used for all header elements; bold and “blocky” to create a more striking appearance.
+* The Lexend font from Google Fonts was used for all paragraph elements; clear and simple to make the information easy to read.
+
+### Colour Palette
+
+![Colour Palette](docs/readme_images/colour_palette.png)
