@@ -141,4 +141,20 @@
 ### Features Left to Implement
 
 * In the future, the accordion design used to display the information could be updated with JavaScript to have smoother and more animated opening/closing transitions.
-* JavaScript could also be used within the ‘Positions’ content to allow users to interact with the player icons to open and close the relevant tab.
+* JavaScript could also be used within the *Positions* content to allow users to interact with the player icons to open and close the relevant tab.
+
+## Design
+
+### Wireframes
+
+#### Home Page
+
+![Home Page Design](docs/readme_images/home_page_design.JPG)
+
+#### Rules Page
+
+![Rules Page Design](docs/readme_images/rules_page_design.JPG)
+
+#### Positions Page
+
+![Positions Page Design](docs/readme_images/positions_page_design.JPG)
