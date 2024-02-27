@@ -121,3 +121,12 @@
 * The video includes controls and is responsive on all devices.
 
 ![Positions Video](docs/readme_images/positions_video.JPG)
+
+### Newsletter Page
+
+* Once the form within the footer is completed and submitted, users will be taken to this page as confirmation of their sign up and to thank them.
+* The image and text stack on smaller screens (less than 1000px), so the page is responsive on all devices.
+
+![Newsletter Page](docs/readme_images/newsletter_page.JPG)
+
+![Newsletter Page - Mobile](docs/readme_images/newsletter_page_mobile.JPG)
