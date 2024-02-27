@@ -130,3 +130,15 @@
 ![Newsletter Page](docs/readme_images/newsletter_page.JPG)
 
 ![Newsletter Page - Mobile](docs/readme_images/newsletter_page_mobile.JPG)
+
+### Existing Features
+
+* Clearly structured and easily accessible information
+* Hidden interactive sections to display the information
+* Newsletter form and success page
+* Responsive design
+
+### Features Left to Implement
+
+* In the future, the accordion design used to display the information could be updated with JavaScript to have smoother and more animated opening/closing transitions.
+* JavaScript could also be used within the ‘Positions’ content to allow users to interact with the player icons to open and close the relevant tab.
