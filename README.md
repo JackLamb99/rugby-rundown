@@ -226,3 +226,29 @@ The website was also opened on the following devices and no responsive issues we
 * Apple iPhone 12
 * Apple iPad Air
 * Google Chromebook
+
+### Accessibility
+
+[**Wave Accessibility**](https://wave.webaim.org/) tool was used to ensure all pages met the needs for any screen readers or accessibility aids for visually impaired users. `aria-hidden="true"` labels were applied to icons and some elements used only for visual design purposes to remove unnecessary clutter for screen-readers.
+
+Below are the results for each page, all received a positive score and no errors were found:
+
+#### Home Page
+
+![Home Page Wave Results](docs/readme_images/home_wave.PNG)
+
+#### Rules Page
+
+![Rules Page Wave Results](docs/readme_images/rules_wave.PNG)
+
+#### Positions Page
+
+![Positions Page Wave Results](docs/readme_images/positions_wave.PNG)
+
+#### Newsletter Page
+
+![Newsletter Page Wave Results](docs/readme_images/newsletter_wave.PNG)
+
+#### 404 Page
+
+![404 Page Wave Results](docs/readme_images/404_wave.PNG)
