@@ -276,3 +276,16 @@ The *Lighthouse* extension on *Google DevTools* was used to test the overall fun
 #### 404 Page
 
 ![404 Page Lighthouse Results](docs/readme_images/404_lighthouse.PNG)
+
+### Functional Testing
+
+#### Navigation Links
+
+Testing was performed to ensure all navigation links directed the user to the correct pages as designed:
+
+| Navigation Link | Directed to Page |
+| :---- | :---- |
+| Rugby Rundown Logo | index.html |
+| Home | index.html |
+| Aventures | adventures.html |
+| Gallery | gallery.html |
