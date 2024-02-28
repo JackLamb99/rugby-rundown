@@ -289,3 +289,115 @@ Testing was performed to ensure all navigation links directed the user to the co
 | Home | index.html |
 | Rules | rules.html |
 | Positions | positions.html |
+
+#### Newsletter Form
+
+The form within the footer to sign up for the newsletter was tested to ensure it functioned as expected when correct and incorrect data was input.
+
+##### Test One – Correct Inputs
+
+| Input | Requirement | Data |
+| :---- | :---- | :---- |
+| First Name | Required | John |
+| Last Name | Optional | Smith |
+| Email | Required | johnsmith@testing.com |
+
+Expected:
+
+The form submits with no errors and user is redirected to the *newsletter.html* page.
+
+Actual:
+
+The website performed as expected, no errors occurred and the user was redirected to the *newsletter.html* page.
+
+##### Test Two – Missing First Name Field
+
+| Input | Requirement | Data |
+| :---- | :---- | :---- |
+| First Name | Required | N/A |
+| Last Name | Optional | Smith |
+| Email | Required | johnsmith@testing.com |
+
+Expected:
+
+The form does not submit and an error message is displayed to tell the user that the *First Name* field is required.
+
+Actual:
+
+The website performed as expected, an error message was displayed and the form did not submit.
+
+##### Test Three – Missing Last Name Field
+
+| Input | Requirement | Data |
+| :---- | :---- | :---- |
+| First Name | Required | John |
+| Last Name | Optional | N/A |
+| Email | Required | johnsmith@testing.com |
+
+Expected:
+
+The form submits with no errors and user is redirected to the *newsletter.html* page.
+
+Actual:
+
+The website performed as expected, no errors occurred and the user was redirected to the *newsletter.html* page.
+
+##### Test Four – Missing Email Field
+
+| Input | Requirement | Data |
+| :---- | :---- | :---- |
+| First Name | Required | John |
+| Last Name | Optional | Smith |
+| Email | Required | N/A |
+
+Expected:
+
+The form does not submit and an error message is displayed to tell the user that the *Email* field is required.
+
+Actual:
+
+The website performed as expected, an error message was displayed and the form did not submit.
+
+##### Test Five – Incorrect Email Format
+
+| Input | Requirement | Data |
+| :---- | :---- | :---- |
+| First Name | Required | John |
+| Last Name | Optional | Smith |
+| Email | Required | johnsmithtesting.com |
+
+Expected:
+
+The form does not submit and an error message is displayed to tell the user to use a valid email format that includes an @ symbol.
+
+Actual:
+
+The website performed as expected, an error message was displayed and the form did not submit.
+
+#### Footer Social Media Links
+
+Testing was performed on the four *Social Media* icons within the footer to ensure that each link opened in a new tab and directed the user to the correct website.
+
+Each link acted as expected, opening the correct site in a new tab.
+
+#### Rugby Club Finder Links
+
+Testing was performed on the four *National Rugby* logos at the bottom of the *Home* page to ensure that each link opened in a new tab and directed the user to the correct page within the website.
+
+Each link acted as expected, opening the correct page on the website in a new tab.
+
+#### Accordions
+
+Testing was performed on the three accordion structures used on the *Rules* and *Positions* pages to ensure each individual tab could be opened and closed on command by clicked anywhere on the tab’s header container.
+
+All of the accordions acted as expected, allowing the user to have full control over of each tab and the display of its content.
+
+#### Embedded Videos
+
+The embedded *YouTube* videos at the bottom of the *Rules* and *Positions* pages were tested to ensure the user has full control over the pause/play, audio and other settings.
+
+Both videos acted as expected, allowing the user to have full control over all playback controls and settings.
+
+#### 404 Home Button
+
+The *Home* button on the *404.html* page was tested to ensure it redirected the user to the *index.html* page and that it had the styled hover effect with alternate colours. The button performed as expected.
