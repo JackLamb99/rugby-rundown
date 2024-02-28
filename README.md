@@ -252,3 +252,27 @@ Below are the results for each page, all received a positive score and no errors
 #### 404 Page
 
 ![404 Page Wave Results](docs/readme_images/404_wave.PNG)
+
+### Lighthouse Testing
+
+The *Lighthouse* extension on *Google DevTools* was used to test the overall functionality and performance of the website:
+
+#### Home Page
+
+![Home Page Lighthouse Results](docs/readme_images/home_lighthouse.PNG)
+
+#### Rules Page
+
+![Rules Page Lighthouse Results](docs/readme_images/rules_lighthouse.PNG)
+
+#### Positions Page
+
+![Positions Page Lighthouse Results](docs/readme_images/positions_lighthouse.PNG)
+
+#### Newsletter Page
+
+![Newsletter Page Lighthouse Results](docs/readme_images/newsletter_lighthouse.PNG)
+
+#### 404 Page
+
+![404 Page Lighthouse Results](docs/readme_images/404_lighthouse.PNG)
