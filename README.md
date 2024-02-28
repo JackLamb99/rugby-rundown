@@ -524,3 +524,11 @@ Open the selected *GitHub* repository you want to clone locally:
 #### Newsletter Page
 
 * [**newsletter_image.webp**](https://classroomclipart.com/image/vector-clipart/email-icons-on-a-laptop-computer-screen-59670.htm)
+
+### Code Used
+
+* `<iframe>` code for videos on the *Rules* and *Positions* page copied from YouTube's 'Embed Video' tool.
+
+## Acknowledgement
+
+[**Gareth McGirr**](https://github.com/Gareth-McGirr) - Code Institute mentor
