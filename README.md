@@ -285,10 +285,10 @@ Testing was performed to ensure all navigation links directed the user to the co
 
 | Navigation Link | Directed to Page |
 | :---- | :---- |
-| Rugby Rundown Logo | index.html |
-| Home | index.html |
-| Rules | rules.html |
-| Positions | positions.html |
+| Rugby Rundown Logo | [index.html](https://jacklamb99.github.io/rugby-rundown/index.html) |
+| Home | [index.html](https://jacklamb99.github.io/rugby-rundown/index.html) |
+| Rules | [rules.html](https://jacklamb99.github.io/rugby-rundown/rules.html) |
+| Positions | [positions.html](https://jacklamb99.github.io/rugby-rundown/positions.html) |
 
 #### Newsletter Form
 
@@ -314,7 +314,7 @@ The website performed as expected, no errors occurred and the user was redirecte
 
 | Input | Requirement | Data |
 | :---- | :---- | :---- |
-| First Name | Required | N/A |
+| First Name | Required |  |
 | Last Name | Optional | Smith |
 | Email | Required | johnsmith@testing.com |
 
@@ -331,7 +331,7 @@ The website performed as expected, an error message was displayed and the form d
 | Input | Requirement | Data |
 | :---- | :---- | :---- |
 | First Name | Required | John |
-| Last Name | Optional | N/A |
+| Last Name | Optional |  |
 | Email | Required | johnsmith@testing.com |
 
 Expected:
@@ -348,7 +348,7 @@ The website performed as expected, no errors occurred and the user was redirecte
 | :---- | :---- | :---- |
 | First Name | Required | John |
 | Last Name | Optional | Smith |
-| Email | Required | N/A |
+| Email | Required |  |
 
 Expected:
 
@@ -401,3 +401,39 @@ Both videos acted as expected, allowing the user to have full control over all p
 #### 404 Home Button
 
 The *Home* button on the *404.html* page was tested to ensure it redirected the user to the *index.html* page and that it had the styled hover effect with alternate colours. The button performed as expected.
+
+### Validator Testing
+
+#### HTML
+
+No errors occurred when passing each page through the official [**W3C Markup Validation Service**](https://validator.w3.org/)
+
+#### Home Page
+
+![Home Page HTML Validator Results](docs/readme_images/home_validator.PNG)
+
+#### Rules Page
+
+![Rules Page HTML Validator Results](docs/readme_images/rules_validator.PNG)
+
+#### Positions Page
+
+![Positions Page HTML Validator Results](docs/readme_images/positions_validator.PNG)
+
+#### Newsletter Page
+
+![Newsletter Page HTML Validator Results](docs/readme_images/newsletter_validator.PNG)
+
+#### 404 Page
+
+![404 Page HTML Validator Results](docs/readme_images/404_validator.PNG)
+
+#### CSS
+
+No errors occurred when passing through the official [**W3C CSS Validation Service**](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator Results](docs/readme_images/css_validator.PNG)
+
+### Unfixed Bugs
+
+The website functions as expected on all browsers with the exception of the *Gallery* carousel on the *Mozilla Firefox* browser. I was unable to resolve this bug on time but will address in a future release.
