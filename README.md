@@ -287,5 +287,5 @@ Testing was performed to ensure all navigation links directed the user to the co
 | :---- | :---- |
 | Rugby Rundown Logo | index.html |
 | Home | index.html |
-| Aventures | adventures.html |
-| Gallery | gallery.html |
+| Rules | rules.html |
+| Positions | positions.html |
