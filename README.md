@@ -462,7 +462,7 @@ The site was deployed to *GitHub Pages*, the steps to deploy are as follows:
 4. Click *'Save'*
 5. Refresh the page and live link will be displayed at the top of the page when published successfully
 
-The live link can be found here - https://jacklamb99.github.io/rugby-rundown/
+The live link can be found here - **https://jacklamb99.github.io/rugby-rundown/**
 
 ### Clone the Repository Code Locally
 
@@ -473,3 +473,54 @@ Open the selected *GitHub* repository you want to clone locally:
 3. Copy the repository link
 4. Open your IDE
 5. Type `git clone copied-url` into the IDE terminal (Git must be installed for this step)
+
+## Credits
+
+### Guidance
+
+* [**ChatGPT**](https://chat.openai.com/) – Used to understand and assist in developing the carousel structure for the landing page gallery, this was then adapted myself for the larger device media queries.
+* [**Accordion Tutorial Video**](https://youtu.be/oCx4gtYe410?si=MyWuYZVreYRLSh1s) – Used to assist in developing the accordion structures used on the *Rules* and *Positions* pages. The code was adapted and styled as required to follow the site design and to use checkbox inputs, rather than radio buttons, for improved user control.
+
+### Content
+
+* [**World Rugby Website**](https://www.world.rugby/the-game/beginners-guide/game) was used to guide the content for the *Rules* page, I adapted the content myself to further explain each rule.
+* [**Rugby Pass Website**](https://www.rugbypass.com/) and [**Rugby Fix Website**](https://rugbyfix.com/rugby-positions-explained/) were used to guide the content for the *Positions* page, I adapted the content myself to further explain each position and their role.
+
+### Media
+
+#### Home Page
+
+* [**carousel_image_1.webp**](https://unsplash.com/photos/men-playing-soccers-8381YR5nfiE)
+* [**carousel_image_2.webp**](https://unsplash.com/photos/group-of-people-playing-soccer-W4Jqc2Uxj3Y)
+* [**carousel_image_3.webp**](https://unsplash.com/photos/womens-rugby-uniforms-uWU5QHeTNvc)
+* [**carousel_image_4.webp**](https://unsplash.com/photos/team-playing-rugby-sport-XAlKHW9ierw)
+* [**carousel_image_5.webp**](https://unsplash.com/photos/children-playing-football-Ag36XuTuARM)
+* [**england_rugby_logo.webp**](https://freebiesupply.com/logos/england-rugby-logo/)
+* [**ireland_rugby_logo.webp**](https://en.wikipedia.org/wiki/Irish_Rugby_Football_Union#/media/File:Irish_Rugby_Football_Union_logo.svg)
+* [**scotland_rugby_logo.webp**](https://en.wikipedia.org/wiki/Scotland_national_rugby_union_team#/media/File:Scotlandlogo.png)
+* [**wales_rugby_logo.webp**](https://en.wikipedia.org/wiki/Logo_of_the_Welsh_Rugby_Union#/media/File:Welsh_Rugby_Union_logo.svg)
+
+#### Rules Page
+
+* [**rugby_ref.webp**](https://d2cx26qpfwuhvu.cloudfront.net/nsl/wp-content/uploads/2022/10/31123836/Nika-Amashukeli-999x562.jpg)
+* [**rugby_ref_wide.webp**](https://www.telegraph.co.uk/content/dam/rugby-union/2023/05/24/TELEMMGLPICT000336685234_16849495745620_trans_NvBQzQNjv4Bq_4lZL6XGyKd1IzVfh-3zqkklW67ZKazFSUg_RL8azUI.jpeg?imwidth=1280)
+* [**rules_open_play.webp**](https://sport360.com/wp-content/uploads/2018/03/GettyImages-926595950-1024x683.jpg)
+* [**rules_scoring.webp**](https://static.independent.co.uk/2023/03/04/10/GettyImages-1469522006.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp)
+* [**rules_tackle.webp**](https://www.therugbypaper.co.uk/wp-content/uploads/epub_importer/data/TRP/trp_20210328_213507/ops/images/img_26-1.jpg)
+* [**rules_ruck.webp**](https://upload.wikimedia.org/wikipedia/commons/b/b8/USO-Gloucester_Rugby_-_20141025_-_Ruck_6.jpg)
+* [**rules_offside.webp**](https://resources.world.rugby/worldrugby/photo/2020/11/04/2a4f6b35-c009-4e65-8cb1-0cfea2c5212a/ruck-offside.jpg)
+* [**rules_scrum.webp**](https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/7/2022/02/GettyImages-77427964-1-630x420.jpg)
+* [**rules_lineout.webp**](https://upload.wikimedia.org/wikipedia/commons/2/2b/ST_vs_LOU_-_21.jpg)
+* [**rugby_pitch.webp**](https://images.ctfassets.net/usvb7o98ifrz/7mezNyl1CMPCKTOSqc1MYd/59ef81e2989620c5b5e0ca0c9c017503/World_Rugby_Pitch_Dimensions_Graphic.jpeg)
+* [**Rugby for beginners: a guide to the rules of rugby union**](https://youtu.be/FOJejnPI0p0?si=O0f8bvVWHzxmdcPk)
+
+#### Positions Page
+
+* [**rugby_positions.webp**](https://carltonsportstravel.com/wp-content/uploads/2023/07/shutterstock_2124737-1-scaled.jpg)
+* [**rugby_positions_wide.webp**](https://www.canterburyrugby.co.nz/news/canterburys-npc-squad-announced-for-2022-season)
+* All images within the *’The Forward Pack’* and *’The Back Line’* accordions use [**this image**](https://rugby.web.unc.edu/wp-content/uploads/sites/12201/2016/05/rugbypositions-1-768x614.png) which was then edited using *Adobe Photoshop* to remove the text, change player shirt colours and highlight each position as needed
+* [**Rugby Explained: Rugby Players and Positions**](https://youtu.be/5bTdxWhgQdM?si=tqsYB5a7sLzRY7vt)
+
+#### Newsletter Page
+
+* [**newsletter_image.webp**](https://classroomclipart.com/image/vector-clipart/email-icons-on-a-laptop-computer-screen-59670.htm)
