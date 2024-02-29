@@ -114,6 +114,7 @@
 #### Rules Accordion
 
 * An accordion structure is used to list the major rules of the sport. The user has full control over the opening and closing of each rule through the use of checkbox inputs that toggle the display property of the content.
+* The initial design for the accordion structure used radio buttons, but after feedback from multiple users, the general consensus was a desire for more control over each individual tab. I achieved this by replacing the radio buttons with checkboxes and altering the relevant CSS code to suit this change.
 * A related image is incorporated into each rule to help the user visualise the content, these images are hidden on mobile devices (under 768px) for space-saving.
 
 ![Rules Accordion](docs/readme_images/rules_accordion.PNG)
@@ -138,14 +139,15 @@
 #### Forwards Accordion
 
 * An accordion structure is used to list the 'Forwards' positions. The user has full control over the opening and closing of each position through the use of checkbox inputs that toggle the display property of the content.
-* An image is incorporated into each content section to highlight each position's place on the pitch, these images are hidden on mobile devices (under 768px) for space-saving.
+* The initial design for the accordion structure used radio buttons, but after feedback from multiple users, the general consensus was a desire for more control over each individual tab. I achieved this by replacing the radio buttons with checkboxes and altering the relevant CSS code to suit this change.
+* An image is incorporated into each content section to highlight each position's place on the pitch. Originally these images were hidden on screens under 768px for space-saving, however this was changed after user feedback to incorporate them on mobile devices.
 
 ![Forwards Accordion](docs/readme_images/forwards_accordion.PNG)
 
 #### Backs Accordion
 
 * The same accordion structure is used to list the 'Backs' positions and the user has the same control over the opening and closing of each position.
-* The images highlighting each position's place on the pitch are continued and are also hidden on mobile devices (under 768px) for space-saving.
+* The images highlighting each position's place on the pitch are continued.
 
 ![Backs Accordion](docs/readme_images/backs_accordion.PNG)
 
