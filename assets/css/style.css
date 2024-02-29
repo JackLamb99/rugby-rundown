@@ -454,10 +454,22 @@ nav {
     position: relative;
 }
 
-/* Hides accordion images for mobile view */
-.positions-accordion li div img {
-    display: none;
+.positions-img {
+    display: flex;
+    flex-direction: column;
 }
+
+.positions-img>img {
+    width: 50%;
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: .5rem;
+}
+
+/* Hides accordion images for mobile view */
+/* .positions-accordion li div img {
+    display: none;
+} */
 
 /* Hides accordion content when checkbox is unchecked */
 #forwards-accordion label+input[type="checkbox"],
@@ -474,7 +486,7 @@ nav {
 /* Reveals accordion content when checkbox is checked */
 #forwards-accordion label+input[type="checkbox"]:checked+.accordion-content,
 #backs-accordion label+input[type="checkbox"]:checked+.accordion-content {
-    max-height: 1000px;
+    max-height: 1500px;
     padding: 1rem;
 }
 
@@ -875,6 +887,10 @@ nav {
         font-size: 25px;
     }
 
+    .positions-img {
+        display: block;
+    }
+
     /* Displays accordion images in top right corner */
     .positions-accordion li div img {
         display: initial;
@@ -884,6 +900,7 @@ nav {
         justify-content: center;
         float: right;
         margin-left: 1rem;
+        padding: 0;
     }
 
     #forwards-accordion label+input[type="checkbox"]:checked+.accordion-content,
