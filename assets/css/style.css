@@ -466,11 +466,6 @@ nav {
     padding-bottom: .5rem;
 }
 
-/* Hides accordion images for mobile view */
-/* .positions-accordion li div img {
-    display: none;
-} */
-
 /* Hides accordion content when checkbox is unchecked */
 #forwards-accordion label+input[type="checkbox"],
 #backs-accordion label+input[type="checkbox"] {
